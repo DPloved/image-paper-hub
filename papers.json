@@ -1,122 +1,122 @@
 {
   "site": {
     "title": "Image Paper Hub",
-    "subtitle": "??????????????? arXiv / ?? / ?????",
-    "description": "??????????????????????????????????????3D?????????????????",
+    "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
+    "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
     "updated": "2026-05-19"
   },
   "categories": [
     {
       "id": "geometry",
-      "name": "3D ??????Gaussian / Radiance Field / SfM / ??",
-      "summary": "3D ???NeRF?Gaussian Splatting??????????????",
+      "name": "3D 重建、几何、Gaussian / Radiance Field / SfM / 配准",
+      "summary": "3D 重建、NeRF、Gaussian Splatting、深度估计、多视图几何与配准",
       "subcategories": [
         {
           "id": "geometry-3d-reconstruction",
-          "name": "3D ???Gaussian Splatting?NeRF?????"
+          "name": "3D 重建、Gaussian Splatting、NeRF、动态场景"
         },
         {
           "id": "geometry-depth",
-          "name": "????????????????"
+          "name": "深度估计、相机、位姿与多视图几何"
         },
         {
           "id": "geometry-registration",
-          "name": "?? / ??????????"
+          "name": "点云 / 多视图配准、空间建模"
         }
       ]
     },
     {
       "id": "generation",
-      "name": "????????????/??/3D ?????",
-      "summary": "???????????????3D ????????",
+      "name": "生成模型、扩散模型、图像/视频/3D 生成与编辑",
+      "summary": "图像生成、图像编辑、视频生成、3D 生成、多模态生成",
       "subcategories": [
         {
           "id": "generation-image",
-          "name": "???????"
+          "name": "图像生成与编辑"
         },
         {
           "id": "generation-video",
-          "name": "?????????????"
+          "name": "视频生成、视频理解相关生成"
         },
         {
           "id": "generation-3d",
-          "name": "3D ?????"
+          "name": "3D 生成与编辑"
         },
         {
           "id": "generation-tokenizer",
-          "name": "????? / tokenizer / interleaved generation"
+          "name": "多模态生成 / tokenizer / interleaved generation"
         }
       ]
     },
     {
       "id": "medical",
-      "name": "??????? VLM???????????????",
-      "summary": "????????????????????????",
+      "name": "医学影像、医学 VLM、医学分割、医学重建、医学配准",
+      "summary": "医学图像分割、重建、配准、医学多模态模型与可靠性",
       "subcategories": [
         {
           "id": "medical-segmentation",
-          "name": "????"
+          "name": "医学分割"
         },
         {
           "id": "medical-reconstruction",
-          "name": "???? / inverse problem / ??"
+          "name": "医学重建 / inverse problem / 成像"
         },
         {
           "id": "medical-vlm",
-          "name": "?? VLM / uncertainty / ???"
+          "name": "医学 VLM / uncertainty / 可靠性"
         },
         {
           "id": "medical-registration",
-          "name": "????"
+          "name": "医学配准"
         }
       ]
     },
     {
       "id": "recognition",
-      "name": "????????????????",
-      "summary": "???????????????????????",
+      "name": "分割、检测、识别、跟踪、对应关系",
+      "summary": "检测、分割、识别、跟踪、关键点、光流、表征学习",
       "subcategories": [
         {
           "id": "recognition-segmentation",
-          "name": "??/????"
+          "name": "图像/视频分割"
         },
         {
           "id": "recognition-detection",
-          "name": "?? / OOD / ?? / ????"
+          "name": "检测 / OOD / 长尾 / 类别发现"
         },
         {
           "id": "recognition-correspondence",
-          "name": "???????????????????"
+          "name": "语义对应、关键点、光流、视频跟踪、表征"
         },
         {
           "id": "recognition-special",
-          "name": "???? / ???? / ?? / ????"
+          "name": "特殊识别 / 人体运动 / 手语 / 行为理解"
         }
       ]
     },
     {
       "id": "multimodal",
-      "name": "VLM / MLLM / ????? / ?? / Benchmark",
-      "summary": "?????????????????????????",
+      "name": "VLM / MLLM / 多模态推理 / 安全 / Benchmark",
+      "summary": "视觉语言模型、多模态推理、高分辨率理解、评测与安全",
       "subcategories": [
         {
           "id": "multimodal-reasoning",
-          "name": "??????????"
+          "name": "多模态推理与能力分析"
         },
         {
           "id": "multimodal-safety",
-          "name": "MLLM / VLM ???????"
+          "name": "MLLM / VLM 安全与攻击防御"
         },
         {
           "id": "multimodal-video",
-          "name": "??/????????"
+          "name": "视频/视觉语言模型能力"
         }
       ]
     },
     {
       "id": "robotics",
-      "name": "????Embodied AI????????????????",
-      "summary": "?????????????????????????",
+      "name": "机器人、Embodied AI、导航、操控、自动驾驶、世界模型",
+      "summary": "具身智能、导航、操作、自动驾驶、世界模型、场景挖掘",
       "subcategories": [
         {
           "id": "robotics-embodied",
@@ -124,95 +124,95 @@
         },
         {
           "id": "robotics-driving",
-          "name": "???? / ???? / ????"
+          "name": "自动驾驶 / 世界模型 / 场景挖掘"
         },
         {
           "id": "robotics-agent",
-          "name": "????? / ?????"
+          "name": "游戏智能体 / 通用智能体"
         }
       ]
     },
     {
       "id": "efficiency",
-      "name": "????????????????????????",
-      "summary": "???????????????????????",
+      "name": "模型压缩、训练效率、优化理论、联邦学习、任务算术",
+      "summary": "轻量化、压缩加速、推理效率、优化理论、数据蒸馏",
       "subcategories": [
         {
           "id": "efficiency-compression",
-          "name": "?? / ?? / edge"
+          "name": "压缩 / 加速 / edge"
         },
         {
           "id": "efficiency-inference",
-          "name": "???????"
+          "name": "推理与结构效率"
         },
         {
           "id": "efficiency-optimization",
-          "name": "?? / ?? / ?? / ??"
+          "name": "优化 / 联邦 / 聚类 / 理论"
         },
         {
           "id": "efficiency-distillation",
-          "name": "???? / ????"
+          "name": "数据蒸馏 / 数据质量"
         }
       ]
     },
     {
       "id": "security",
-      "name": "????????????????",
-      "summary": "??????????????????????????",
+      "name": "隐私、安全、水印、版权、成员推断",
+      "summary": "视觉模型隐私、安全、水印、版权保护、成员推断与鲁棒性",
       "subcategories": [
         {
           "id": "security-watermark",
-          "name": "?? / ?? / ????"
+          "name": "水印 / 版权 / 内容溯源"
         },
         {
           "id": "security-privacy",
-          "name": "?? / ???? / ????"
+          "name": "隐私 / 成员推断 / 数据安全"
         },
         {
           "id": "security-robustness",
-          "name": "???? / ???"
+          "name": "攻击防御 / 鲁棒性"
         }
       ]
     },
     {
       "id": "dataset",
-      "name": "??? / Benchmark ???",
-      "summary": "??????????????????????",
+      "name": "数据集 / Benchmark 型论文",
+      "summary": "图像任务数据集、评测基准、挑战赛、可靠性评测",
       "subcategories": [
         {
           "id": "dataset-benchmark",
-          "name": "?? Benchmark ?????"
+          "name": "通用 Benchmark 与评测协议"
         },
         {
           "id": "dataset-highres",
-          "name": "???? / ???????"
+          "name": "高分辨率 / 真实场景数据集"
         },
         {
           "id": "dataset-task",
-          "name": "???????"
+          "name": "任务专用数据集"
         }
       ]
     },
     {
       "id": "sr",
-      "name": "???????????????",
-      "summary": "?????????????????????????????",
+      "name": "图像复原、超分、增强、低层视觉",
+      "summary": "图像超分、去噪、去模糊、低光增强、真实退化恢复、注意力机制",
       "subcategories": [
         {
           "id": "sr-super-resolution",
-          "name": "????????? SR???? SR"
+          "name": "图像超分、真实退化 SR、轻量化 SR"
         },
         {
           "id": "sr-attention",
-          "name": "????? / Transformer / ????"
+          "name": "注意力机制 / Transformer / 长程依赖"
         },
         {
           "id": "restoration-enhancement",
-          "name": "?????????????????"
+          "name": "图像恢复、增强、去噪、去模糊、低光"
         },
         {
           "id": "restoration-generative",
-          "name": "???? / ????????"
+          "name": "生成先验 / 扩散先验图像恢复"
         }
       ]
     }
@@ -225,6 +225,7 @@
       "venue": "ICLR 2024",
       "year": 2024,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Super-Resolution",
         "Transformer",
@@ -236,8 +237,7 @@
         "arxiv": "",
         "code": ""
       },
-      "status": "已收录",
-      "subcategory": "sr-attention"
+      "status": "已收录"
     },
     {
       "id": "dwt-2024",
@@ -246,6 +246,7 @@
       "venue": "ACCV 2024",
       "year": 2024,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Super-Resolution",
         "Window Attention",
@@ -257,8 +258,7 @@
         "arxiv": "",
         "code": ""
       },
-      "status": "已收录",
-      "subcategory": "sr-attention"
+      "status": "已收录"
     },
     {
       "id": "mat-2024",
@@ -267,6 +267,7 @@
       "venue": "arXiv 2024",
       "year": 2024,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Super-Resolution",
         "Multi-Range Attention",
@@ -278,8 +279,7 @@
         "arxiv": "https://arxiv.org/abs/2411.17214",
         "code": ""
       },
-      "status": "待补充代码",
-      "subcategory": "sr-attention"
+      "status": "待补充代码"
     },
     {
       "id": "tfman-2024",
@@ -288,6 +288,7 @@
       "venue": "Pattern Recognition / arXiv 2024",
       "year": 2024,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Feature Matching",
         "Non-local Attention",
@@ -299,8 +300,7 @@
         "arxiv": "https://arxiv.org/abs/2405.18872",
         "code": ""
       },
-      "status": "待补充代码",
-      "subcategory": "sr-attention"
+      "status": "待补充代码"
     },
     {
       "id": "lfesr-2025",
@@ -309,6 +309,7 @@
       "venue": "Scientific Reports 2025",
       "year": 2025,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Neighborhood Attention",
         "Transformer",
@@ -320,8 +321,7 @@
         "arxiv": "",
         "code": ""
       },
-      "status": "已收录",
-      "subcategory": "sr-attention"
+      "status": "已收录"
     },
     {
       "id": "whanet-2026",
@@ -330,6 +330,7 @@
       "venue": "Scientific Reports 2026",
       "year": 2026,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Hierarchical Attention",
         "Lightweight SR",
@@ -341,8 +342,7 @@
         "arxiv": "",
         "code": ""
       },
-      "status": "已收录",
-      "subcategory": "sr-attention"
+      "status": "已收录"
     },
     {
       "id": "caat-2025",
@@ -351,6 +351,7 @@
       "venue": "Array 2025",
       "year": 2025,
       "category": "sr",
+      "subcategory": "sr-attention",
       "tags": [
         "Channel Attention",
         "Swin Transformer",
@@ -362,71 +363,7 @@
         "arxiv": "",
         "code": ""
       },
-      "status": "已收录",
-      "subcategory": "sr-attention"
-    },
-    {
-      "id": "dinov2-2024",
-      "title": "Depth Anything V2",
-      "authors": "Yang et al.",
-      "venue": "NeurIPS 2024",
-      "year": 2024,
-      "category": "geometry",
-      "tags": [
-        "Depth Estimation",
-        "Foundation Model",
-        "Monocular"
-      ],
-      "summary": "面向单目深度估计的大规模视觉基础模型，适合作为几何方向重点论文入口。",
-      "links": {
-        "paper": "https://arxiv.org/abs/2406.09414",
-        "arxiv": "https://arxiv.org/abs/2406.09414",
-        "code": "https://github.com/DepthAnything/Depth-Anything-V2"
-      },
-      "status": "已收录",
-      "subcategory": "geometry-depth"
-    },
-    {
-      "id": "sam2-2024",
-      "title": "SAM 2: Segment Anything in Images and Videos",
-      "authors": "Ravi et al.",
-      "venue": "arXiv 2024",
-      "year": 2024,
-      "category": "recognition",
-      "tags": [
-        "Segmentation",
-        "Foundation Model",
-        "Video"
-      ],
-      "summary": "将可提示分割能力扩展到图像与视频，是图像理解方向的基础模型代表。",
-      "links": {
-        "paper": "https://arxiv.org/abs/2408.00714",
-        "arxiv": "https://arxiv.org/abs/2408.00714",
-        "code": "https://github.com/facebookresearch/sam2"
-      },
-      "status": "已收录",
-      "subcategory": "recognition-segmentation"
-    },
-    {
-      "id": "flux-2024",
-      "title": "FLUX.1 Models for Text-to-Image Generation",
-      "authors": "Black Forest Labs",
-      "venue": "2024",
-      "year": 2024,
-      "category": "generation",
-      "tags": [
-        "Text-to-Image",
-        "Diffusion/Flow",
-        "Generation"
-      ],
-      "summary": "高质量文本到图像生成模型，可作为生成与编辑方向的模型入口。",
-      "links": {
-        "paper": "https://blackforestlabs.ai/announcing-black-forest-labs/",
-        "arxiv": "",
-        "code": "https://github.com/black-forest-labs/flux"
-      },
-      "status": "项目入口",
-      "subcategory": "generation-image"
+      "status": "已收录"
     },
     {
       "id": "diffbir-2024",
@@ -435,6 +372,7 @@
       "venue": "ECCV 2024",
       "year": 2024,
       "category": "sr",
+      "subcategory": "restoration-generative",
       "tags": [
         "Blind Restoration",
         "Diffusion Prior",
@@ -446,29 +384,70 @@
         "arxiv": "https://arxiv.org/abs/2308.15070",
         "code": "https://github.com/XPixelGroup/DiffBIR"
       },
-      "status": "已收录",
-      "subcategory": "restoration-generative"
+      "status": "已收录"
     },
     {
-      "id": "mme-realworld-2025",
-      "title": "MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios?",
-      "authors": "Zhang et al.",
-      "venue": "ICLR 2025",
-      "year": 2025,
-      "category": "dataset",
+      "id": "depth-anything-v2-2024",
+      "title": "Depth Anything V2",
+      "authors": "Yang et al.",
+      "venue": "NeurIPS 2024",
+      "year": 2024,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
       "tags": [
-        "Benchmark",
-        "High-Resolution",
-        "Multimodal"
+        "Depth Estimation",
+        "Foundation Model",
+        "Monocular"
       ],
-      "summary": "面向高分辨率真实场景的多模态评测，可用于图像理解 Benchmark 分类。",
+      "summary": "面向单目深度估计的大规模视觉基础模型，适合作为几何方向重点论文入口。",
       "links": {
-        "paper": "https://arxiv.org/abs/2408.13257",
-        "arxiv": "https://arxiv.org/abs/2408.13257",
-        "code": "https://github.com/yfzhang114/MME-RealWorld"
+        "paper": "https://arxiv.org/abs/2406.09414",
+        "arxiv": "https://arxiv.org/abs/2406.09414",
+        "code": "https://github.com/DepthAnything/Depth-Anything-V2"
       },
-      "status": "已收录",
-      "subcategory": "dataset-highres"
+      "status": "已收录"
+    },
+    {
+      "id": "flux-2024",
+      "title": "FLUX.1 Models for Text-to-Image Generation",
+      "authors": "Black Forest Labs",
+      "venue": "2024",
+      "year": 2024,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Text-to-Image",
+        "Diffusion/Flow",
+        "Generation"
+      ],
+      "summary": "高质量文本到图像生成模型，可作为生成与编辑方向的模型入口。",
+      "links": {
+        "paper": "https://blackforestlabs.ai/announcing-black-forest-labs/",
+        "arxiv": "",
+        "code": "https://github.com/black-forest-labs/flux"
+      },
+      "status": "项目入口"
+    },
+    {
+      "id": "sam2-2024",
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "authors": "Ravi et al.",
+      "venue": "arXiv 2024",
+      "year": 2024,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Foundation Model",
+        "Video"
+      ],
+      "summary": "将可提示分割能力扩展到图像与视频，是图像理解方向的基础模型代表。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.00714",
+        "arxiv": "https://arxiv.org/abs/2408.00714",
+        "code": "https://github.com/facebookresearch/sam2"
+      },
+      "status": "已收录"
     },
     {
       "id": "medsam-2024",
@@ -483,13 +462,13 @@
         "Segmentation",
         "Foundation Model"
       ],
-      "summary": "??????????????????????????????????",
+      "summary": "将可提示分割范式迁移到医学影像场景，是医学分割方向的代表性入口论文。",
       "links": {
         "paper": "https://www.nature.com/articles/s41467-024-44824-z",
         "arxiv": "https://arxiv.org/abs/2304.12306",
         "code": "https://github.com/bowang-lab/MedSAM"
       },
-      "status": "???"
+      "status": "已收录"
     },
     {
       "id": "llava-onevision-2024",
@@ -504,55 +483,13 @@
         "Multimodal",
         "Reasoning"
       ],
-      "summary": "????????????????????????????????????????",
+      "summary": "统一图像、视频与多图视觉任务的视觉语言模型，可作为图像理解与多模态推理方向入口。",
       "links": {
         "paper": "https://arxiv.org/abs/2408.03326",
         "arxiv": "https://arxiv.org/abs/2408.03326",
         "code": "https://github.com/LLaVA-VL/LLaVA-NeXT"
       },
-      "status": "???"
-    },
-    {
-      "id": "mobile-sam-2023",
-      "title": "MobileSAM: Faster Segment Anything to Everything",
-      "authors": "Zhang et al.",
-      "venue": "arXiv 2023",
-      "year": 2023,
-      "category": "efficiency",
-      "subcategory": "efficiency-compression",
-      "tags": [
-        "Efficient",
-        "Segmentation",
-        "Edge"
-      ],
-      "summary": "????????? Segment Anything ???????????????",
-      "links": {
-        "paper": "https://arxiv.org/abs/2306.14289",
-        "arxiv": "https://arxiv.org/abs/2306.14289",
-        "code": "https://github.com/ChaoningZhang/MobileSAM"
-      },
-      "status": "???"
-    },
-    {
-      "id": "glaze-2023",
-      "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
-      "authors": "Shan et al.",
-      "venue": "USENIX Security 2023",
-      "year": 2023,
-      "category": "security",
-      "subcategory": "security-watermark",
-      "tags": [
-        "Copyright",
-        "Protection",
-        "Image Generation"
-      ],
-      "summary": "???????????????????????????????????",
-      "links": {
-        "paper": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
-        "arxiv": "https://arxiv.org/abs/2302.04222",
-        "code": ""
-      },
-      "status": "???"
+      "status": "已收录"
     },
     {
       "id": "rt-2-2023",
@@ -567,13 +504,76 @@
         "VLA",
         "Embodied AI"
       ],
-      "summary": "??-??-?????????????????????????",
+      "summary": "视觉-语言-动作模型代表工作，可作为机器人与具身智能章节入口。",
       "links": {
         "paper": "https://arxiv.org/abs/2307.15818",
         "arxiv": "https://arxiv.org/abs/2307.15818",
         "code": ""
       },
-      "status": "???"
+      "status": "已收录"
+    },
+    {
+      "id": "mobile-sam-2023",
+      "title": "MobileSAM: Faster Segment Anything to Everything",
+      "authors": "Zhang et al.",
+      "venue": "arXiv 2023",
+      "year": 2023,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficient",
+        "Segmentation",
+        "Edge"
+      ],
+      "summary": "通过轻量化设计降低 Segment Anything 推理成本，适合效率与压缩章节。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2306.14289",
+        "arxiv": "https://arxiv.org/abs/2306.14289",
+        "code": "https://github.com/ChaoningZhang/MobileSAM"
+      },
+      "status": "已收录"
+    },
+    {
+      "id": "glaze-2023",
+      "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+      "authors": "Shan et al.",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "category": "security",
+      "subcategory": "security-watermark",
+      "tags": [
+        "Copyright",
+        "Protection",
+        "Image Generation"
+      ],
+      "summary": "面向图像生成模型风格模仿风险的艺术作品保护方法，可归入版权与安全方向。",
+      "links": {
+        "paper": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+        "arxiv": "https://arxiv.org/abs/2302.04222",
+        "code": ""
+      },
+      "status": "已收录"
+    },
+    {
+      "id": "mme-realworld-2025",
+      "title": "MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios?",
+      "authors": "Zhang et al.",
+      "venue": "ICLR 2025",
+      "year": 2025,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "Benchmark",
+        "High-Resolution",
+        "Multimodal"
+      ],
+      "summary": "面向高分辨率真实场景的多模态评测，可用于图像理解 Benchmark 分类。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.13257",
+        "arxiv": "https://arxiv.org/abs/2408.13257",
+        "code": "https://github.com/yfzhang114/MME-RealWorld"
+      },
+      "status": "已收录"
     }
   ]
 }
