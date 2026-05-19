@@ -24,26 +24,31 @@ NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/
 SEARCH_PROFILES = [
     {
         "category": "sr",
+        "subcategory": "sr-attention",
         "query": 'cat:cs.CV AND ("super resolution" OR "image super-resolution" OR "image restoration" OR "attention" OR "transformer")',
         "tags": ["Super-Resolution", "Auto-Fetched"],
     },
     {
         "category": "generation",
+        "subcategory": "generation-image",
         "query": 'cat:cs.CV AND ("image generation" OR "image editing" OR "diffusion model" OR "text-to-image")',
         "tags": ["Generation", "Auto-Fetched"],
     },
     {
-        "category": "restoration",
+        "category": "sr",
+        "subcategory": "restoration-enhancement",
         "query": 'cat:cs.CV AND ("image restoration" OR "image enhancement" OR "denoising" OR "deblurring" OR "low-light")',
         "tags": ["Restoration", "Auto-Fetched"],
     },
     {
         "category": "recognition",
+        "subcategory": "recognition-detection",
         "query": 'cat:cs.CV AND ("segmentation" OR "object detection" OR "image recognition" OR "open-vocabulary")',
         "tags": ["Recognition", "Auto-Fetched"],
     },
     {
         "category": "geometry",
+        "subcategory": "geometry-3d-reconstruction",
         "query": 'cat:cs.CV AND ("3D reconstruction" OR "Gaussian Splatting" OR "NeRF" OR "depth estimation")',
         "tags": ["3D Vision", "Auto-Fetched"],
     },
@@ -168,6 +173,7 @@ def merge_papers(data: dict, max_results_per_profile: int, dry_run: bool) -> int
                 "venue": "arXiv",
                 "year": item["year"],
                 "category": profile["category"],
+                "subcategory": profile.get("subcategory", "dataset-task"),
                 "tags": profile["tags"],
                 "summary": item["summary"] or "待补充摘要。",
                 "links": {"paper": item["pdf"], "arxiv": item["arxiv"], "code": ""},

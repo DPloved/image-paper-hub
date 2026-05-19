@@ -1,162 +1,579 @@
 {
   "site": {
     "title": "Image Paper Hub",
-    "subtitle": "图像相关论文收集（含 arXiv / 代码 / 项目链接）",
-    "description": "按研究方向分类整理图像超分、图像生成、图像恢复、检测分割、3D视觉等论文，方便快速检索、补充和分享。",
+    "subtitle": "??????????????? arXiv / ?? / ?????",
+    "description": "??????????????????????????????????????3D?????????????????",
     "updated": "2026-05-19"
   },
   "categories": [
-    {"id":"sr","name":"图像超分与重建","summary":"单图像超分、轻量化 SR、Transformer/注意力 SR、真实退化恢复"},
-    {"id":"generation","name":"图像生成与编辑","summary":"扩散模型、图像编辑、可控生成、个性化生成"},
-    {"id":"restoration","name":"图像恢复与增强","summary":"去噪、去模糊、低光增强、去雨/去雾、HDR"},
-    {"id":"recognition","name":"检测、分割与识别","summary":"目标检测、语义/实例分割、开放词表识别、跟踪"},
-    {"id":"geometry","name":"3D视觉与多视图","summary":"NeRF、Gaussian Splatting、深度估计、重建与位姿"},
-    {"id":"dataset","name":"数据集与 Benchmark","summary":"图像任务数据集、评测基准、可靠性与鲁棒性评估"}
+    {
+      "id": "geometry",
+      "name": "3D ??????Gaussian / Radiance Field / SfM / ??",
+      "summary": "3D ???NeRF?Gaussian Splatting??????????????",
+      "subcategories": [
+        {
+          "id": "geometry-3d-reconstruction",
+          "name": "3D ???Gaussian Splatting?NeRF?????"
+        },
+        {
+          "id": "geometry-depth",
+          "name": "????????????????"
+        },
+        {
+          "id": "geometry-registration",
+          "name": "?? / ??????????"
+        }
+      ]
+    },
+    {
+      "id": "generation",
+      "name": "????????????/??/3D ?????",
+      "summary": "???????????????3D ????????",
+      "subcategories": [
+        {
+          "id": "generation-image",
+          "name": "???????"
+        },
+        {
+          "id": "generation-video",
+          "name": "?????????????"
+        },
+        {
+          "id": "generation-3d",
+          "name": "3D ?????"
+        },
+        {
+          "id": "generation-tokenizer",
+          "name": "????? / tokenizer / interleaved generation"
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "name": "??????? VLM???????????????",
+      "summary": "????????????????????????",
+      "subcategories": [
+        {
+          "id": "medical-segmentation",
+          "name": "????"
+        },
+        {
+          "id": "medical-reconstruction",
+          "name": "???? / inverse problem / ??"
+        },
+        {
+          "id": "medical-vlm",
+          "name": "?? VLM / uncertainty / ???"
+        },
+        {
+          "id": "medical-registration",
+          "name": "????"
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "name": "????????????????",
+      "summary": "???????????????????????",
+      "subcategories": [
+        {
+          "id": "recognition-segmentation",
+          "name": "??/????"
+        },
+        {
+          "id": "recognition-detection",
+          "name": "?? / OOD / ?? / ????"
+        },
+        {
+          "id": "recognition-correspondence",
+          "name": "???????????????????"
+        },
+        {
+          "id": "recognition-special",
+          "name": "???? / ???? / ?? / ????"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "name": "VLM / MLLM / ????? / ?? / Benchmark",
+      "summary": "?????????????????????????",
+      "subcategories": [
+        {
+          "id": "multimodal-reasoning",
+          "name": "??????????"
+        },
+        {
+          "id": "multimodal-safety",
+          "name": "MLLM / VLM ???????"
+        },
+        {
+          "id": "multimodal-video",
+          "name": "??/????????"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "name": "????Embodied AI????????????????",
+      "summary": "?????????????????????????",
+      "subcategories": [
+        {
+          "id": "robotics-embodied",
+          "name": "Embodied / Navigation / Manipulation"
+        },
+        {
+          "id": "robotics-driving",
+          "name": "???? / ???? / ????"
+        },
+        {
+          "id": "robotics-agent",
+          "name": "????? / ?????"
+        }
+      ]
+    },
+    {
+      "id": "efficiency",
+      "name": "????????????????????????",
+      "summary": "???????????????????????",
+      "subcategories": [
+        {
+          "id": "efficiency-compression",
+          "name": "?? / ?? / edge"
+        },
+        {
+          "id": "efficiency-inference",
+          "name": "???????"
+        },
+        {
+          "id": "efficiency-optimization",
+          "name": "?? / ?? / ?? / ??"
+        },
+        {
+          "id": "efficiency-distillation",
+          "name": "???? / ????"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "????????????????",
+      "summary": "??????????????????????????",
+      "subcategories": [
+        {
+          "id": "security-watermark",
+          "name": "?? / ?? / ????"
+        },
+        {
+          "id": "security-privacy",
+          "name": "?? / ???? / ????"
+        },
+        {
+          "id": "security-robustness",
+          "name": "???? / ???"
+        }
+      ]
+    },
+    {
+      "id": "dataset",
+      "name": "??? / Benchmark ???",
+      "summary": "??????????????????????",
+      "subcategories": [
+        {
+          "id": "dataset-benchmark",
+          "name": "?? Benchmark ?????"
+        },
+        {
+          "id": "dataset-highres",
+          "name": "???? / ???????"
+        },
+        {
+          "id": "dataset-task",
+          "name": "???????"
+        }
+      ]
+    },
+    {
+      "id": "sr",
+      "name": "???????????????",
+      "summary": "?????????????????????????????",
+      "subcategories": [
+        {
+          "id": "sr-super-resolution",
+          "name": "????????? SR???? SR"
+        },
+        {
+          "id": "sr-attention",
+          "name": "????? / Transformer / ????"
+        },
+        {
+          "id": "restoration-enhancement",
+          "name": "?????????????????"
+        },
+        {
+          "id": "restoration-generative",
+          "name": "???? / ????????"
+        }
+      ]
+    }
   ],
   "papers": [
     {
-      "id":"rgt-2024",
-      "title":"Recursive Generalization Transformer for Image Super-Resolution",
-      "authors":"Yulun Zhang et al.",
-      "venue":"ICLR 2024",
-      "year":2024,
-      "category":"sr",
-      "tags":["Super-Resolution","Transformer","Self-Attention"],
-      "summary":"用递归泛化注意力扩展上下文建模能力，缓解局部窗口注意力的感受野限制。",
-      "links":{"paper":"https://proceedings.iclr.cc/paper_files/paper/2024/file/0a4c7cdfc0a4eb1b13bb84a9b6220c37-Paper-Conference.pdf","arxiv":"","code":""},
-      "status":"已收录"
+      "id": "rgt-2024",
+      "title": "Recursive Generalization Transformer for Image Super-Resolution",
+      "authors": "Yulun Zhang et al.",
+      "venue": "ICLR 2024",
+      "year": 2024,
+      "category": "sr",
+      "tags": [
+        "Super-Resolution",
+        "Transformer",
+        "Self-Attention"
+      ],
+      "summary": "用递归泛化注意力扩展上下文建模能力，缓解局部窗口注意力的感受野限制。",
+      "links": {
+        "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/0a4c7cdfc0a4eb1b13bb84a9b6220c37-Paper-Conference.pdf",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "已收录",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"dwt-2024",
-      "title":"Dynamic Window Transformer for Image Super-Resolution",
-      "authors":"Xie et al.",
-      "venue":"ACCV 2024",
-      "year":2024,
-      "category":"sr",
-      "tags":["Super-Resolution","Window Attention","Efficient"],
-      "summary":"动态选择窗口形状，让注意力区域更贴合图像内容与纹理方向。",
-      "links":{"paper":"https://openaccess.thecvf.com/content/ACCV2024/html/Xie_Dynamic_Window_Transformer_for_Image_Super-Resolution_ACCV_2024_paper.html","arxiv":"","code":""},
-      "status":"已收录"
+      "id": "dwt-2024",
+      "title": "Dynamic Window Transformer for Image Super-Resolution",
+      "authors": "Xie et al.",
+      "venue": "ACCV 2024",
+      "year": 2024,
+      "category": "sr",
+      "tags": [
+        "Super-Resolution",
+        "Window Attention",
+        "Efficient"
+      ],
+      "summary": "动态选择窗口形状，让注意力区域更贴合图像内容与纹理方向。",
+      "links": {
+        "paper": "https://openaccess.thecvf.com/content/ACCV2024/html/Xie_Dynamic_Window_Transformer_for_Image_Super-Resolution_ACCV_2024_paper.html",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "已收录",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"mat-2024",
-      "title":"MAT: Multi-Range Attention Transformer for Efficient Image Super-Resolution",
-      "authors":"Chen et al.",
-      "venue":"arXiv 2024",
-      "year":2024,
-      "category":"sr",
-      "tags":["Super-Resolution","Multi-Range Attention","Lightweight"],
-      "summary":"结合多范围注意力与稀疏注意力，同时覆盖局部细节、区域上下文和远距离依赖。",
-      "links":{"paper":"","arxiv":"https://arxiv.org/abs/2411.17214","code":""},
-      "status":"待补充代码"
+      "id": "mat-2024",
+      "title": "MAT: Multi-Range Attention Transformer for Efficient Image Super-Resolution",
+      "authors": "Chen et al.",
+      "venue": "arXiv 2024",
+      "year": 2024,
+      "category": "sr",
+      "tags": [
+        "Super-Resolution",
+        "Multi-Range Attention",
+        "Lightweight"
+      ],
+      "summary": "结合多范围注意力与稀疏注意力，同时覆盖局部细节、区域上下文和远距离依赖。",
+      "links": {
+        "paper": "",
+        "arxiv": "https://arxiv.org/abs/2411.17214",
+        "code": ""
+      },
+      "status": "待补充代码",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"tfman-2024",
-      "title":"Single Image Super-Resolution Based on Trainable Feature Matching Attention Network",
-      "authors":"Li et al.",
-      "venue":"Pattern Recognition / arXiv 2024",
-      "year":2024,
-      "category":"sr",
-      "tags":["Feature Matching","Non-local Attention","Channel Attention"],
-      "summary":"把可训练特征匹配、非局部注意力与通道注意力结合，增强纹理恢复。",
-      "links":{"paper":"","arxiv":"https://arxiv.org/abs/2405.18872","code":""},
-      "status":"待补充代码"
+      "id": "tfman-2024",
+      "title": "Single Image Super-Resolution Based on Trainable Feature Matching Attention Network",
+      "authors": "Li et al.",
+      "venue": "Pattern Recognition / arXiv 2024",
+      "year": 2024,
+      "category": "sr",
+      "tags": [
+        "Feature Matching",
+        "Non-local Attention",
+        "Channel Attention"
+      ],
+      "summary": "把可训练特征匹配、非局部注意力与通道注意力结合，增强纹理恢复。",
+      "links": {
+        "paper": "",
+        "arxiv": "https://arxiv.org/abs/2405.18872",
+        "code": ""
+      },
+      "status": "待补充代码",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"lfesr-2025",
-      "title":"Local Feature Enhancement Transformer for Image Super-Resolution",
-      "authors":"Wang et al.",
-      "venue":"Scientific Reports 2025",
-      "year":2025,
-      "category":"sr",
-      "tags":["Neighborhood Attention","Transformer","Local Feature"],
-      "summary":"强化局部邻域特征交互，并通过轻量化头部设计控制计算成本。",
-      "links":{"paper":"https://www.nature.com/articles/s41598-025-07650-x","arxiv":"","code":""},
-      "status":"已收录"
+      "id": "lfesr-2025",
+      "title": "Local Feature Enhancement Transformer for Image Super-Resolution",
+      "authors": "Wang et al.",
+      "venue": "Scientific Reports 2025",
+      "year": 2025,
+      "category": "sr",
+      "tags": [
+        "Neighborhood Attention",
+        "Transformer",
+        "Local Feature"
+      ],
+      "summary": "强化局部邻域特征交互，并通过轻量化头部设计控制计算成本。",
+      "links": {
+        "paper": "https://www.nature.com/articles/s41598-025-07650-x",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "已收录",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"whanet-2026",
-      "title":"WHANet: Weighted Hierarchical Attention for Lightweight Image Super-Resolution",
-      "authors":"Zhao et al.",
-      "venue":"Scientific Reports 2026",
-      "year":2026,
-      "category":"sr",
-      "tags":["Hierarchical Attention","Lightweight SR","Feature Fusion"],
-      "summary":"通过加权层级注意力聚合特征，减少信息传递过程中的有效细节损失。",
-      "links":{"paper":"https://www.nature.com/articles/s41598-026-49179-7","arxiv":"","code":""},
-      "status":"已收录"
+      "id": "whanet-2026",
+      "title": "WHANet: Weighted Hierarchical Attention for Lightweight Image Super-Resolution",
+      "authors": "Zhao et al.",
+      "venue": "Scientific Reports 2026",
+      "year": 2026,
+      "category": "sr",
+      "tags": [
+        "Hierarchical Attention",
+        "Lightweight SR",
+        "Feature Fusion"
+      ],
+      "summary": "通过加权层级注意力聚合特征，减少信息传递过程中的有效细节损失。",
+      "links": {
+        "paper": "https://www.nature.com/articles/s41598-026-49179-7",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "已收录",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"caat-2025",
-      "title":"CAAT: Image Super-Resolution Algorithm via Channel Attention and Transformer",
-      "authors":"Liu et al.",
-      "venue":"Array 2025",
-      "year":2025,
-      "category":"sr",
-      "tags":["Channel Attention","Swin Transformer","Lightweight"],
-      "summary":"将通道注意力嵌入 Transformer 与卷积分支，提高轻量模型的细节选择能力。",
-      "links":{"paper":"https://www.sciencedirect.com/science/article/pii/S2590005625002553","arxiv":"","code":""},
-      "status":"已收录"
+      "id": "caat-2025",
+      "title": "CAAT: Image Super-Resolution Algorithm via Channel Attention and Transformer",
+      "authors": "Liu et al.",
+      "venue": "Array 2025",
+      "year": 2025,
+      "category": "sr",
+      "tags": [
+        "Channel Attention",
+        "Swin Transformer",
+        "Lightweight"
+      ],
+      "summary": "将通道注意力嵌入 Transformer 与卷积分支，提高轻量模型的细节选择能力。",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S2590005625002553",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "已收录",
+      "subcategory": "sr-attention"
     },
     {
-      "id":"dinov2-2024",
-      "title":"Depth Anything V2",
-      "authors":"Yang et al.",
-      "venue":"NeurIPS 2024",
-      "year":2024,
-      "category":"geometry",
-      "tags":["Depth Estimation","Foundation Model","Monocular"],
-      "summary":"面向单目深度估计的大规模视觉基础模型，适合作为几何方向重点论文入口。",
-      "links":{"paper":"https://arxiv.org/abs/2406.09414","arxiv":"https://arxiv.org/abs/2406.09414","code":"https://github.com/DepthAnything/Depth-Anything-V2"},
-      "status":"已收录"
+      "id": "dinov2-2024",
+      "title": "Depth Anything V2",
+      "authors": "Yang et al.",
+      "venue": "NeurIPS 2024",
+      "year": 2024,
+      "category": "geometry",
+      "tags": [
+        "Depth Estimation",
+        "Foundation Model",
+        "Monocular"
+      ],
+      "summary": "面向单目深度估计的大规模视觉基础模型，适合作为几何方向重点论文入口。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2406.09414",
+        "arxiv": "https://arxiv.org/abs/2406.09414",
+        "code": "https://github.com/DepthAnything/Depth-Anything-V2"
+      },
+      "status": "已收录",
+      "subcategory": "geometry-depth"
     },
     {
-      "id":"sam2-2024",
-      "title":"SAM 2: Segment Anything in Images and Videos",
-      "authors":"Ravi et al.",
-      "venue":"arXiv 2024",
-      "year":2024,
-      "category":"recognition",
-      "tags":["Segmentation","Foundation Model","Video"],
-      "summary":"将可提示分割能力扩展到图像与视频，是图像理解方向的基础模型代表。",
-      "links":{"paper":"https://arxiv.org/abs/2408.00714","arxiv":"https://arxiv.org/abs/2408.00714","code":"https://github.com/facebookresearch/sam2"},
-      "status":"已收录"
+      "id": "sam2-2024",
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "authors": "Ravi et al.",
+      "venue": "arXiv 2024",
+      "year": 2024,
+      "category": "recognition",
+      "tags": [
+        "Segmentation",
+        "Foundation Model",
+        "Video"
+      ],
+      "summary": "将可提示分割能力扩展到图像与视频，是图像理解方向的基础模型代表。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.00714",
+        "arxiv": "https://arxiv.org/abs/2408.00714",
+        "code": "https://github.com/facebookresearch/sam2"
+      },
+      "status": "已收录",
+      "subcategory": "recognition-segmentation"
     },
     {
-      "id":"flux-2024",
-      "title":"FLUX.1 Models for Text-to-Image Generation",
-      "authors":"Black Forest Labs",
-      "venue":"2024",
-      "year":2024,
-      "category":"generation",
-      "tags":["Text-to-Image","Diffusion/Flow","Generation"],
-      "summary":"高质量文本到图像生成模型，可作为生成与编辑方向的模型入口。",
-      "links":{"paper":"https://blackforestlabs.ai/announcing-black-forest-labs/","arxiv":"","code":"https://github.com/black-forest-labs/flux"},
-      "status":"项目入口"
+      "id": "flux-2024",
+      "title": "FLUX.1 Models for Text-to-Image Generation",
+      "authors": "Black Forest Labs",
+      "venue": "2024",
+      "year": 2024,
+      "category": "generation",
+      "tags": [
+        "Text-to-Image",
+        "Diffusion/Flow",
+        "Generation"
+      ],
+      "summary": "高质量文本到图像生成模型，可作为生成与编辑方向的模型入口。",
+      "links": {
+        "paper": "https://blackforestlabs.ai/announcing-black-forest-labs/",
+        "arxiv": "",
+        "code": "https://github.com/black-forest-labs/flux"
+      },
+      "status": "项目入口",
+      "subcategory": "generation-image"
     },
     {
-      "id":"diffbir-2024",
-      "title":"DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior",
-      "authors":"Lin et al.",
-      "venue":"ECCV 2024",
-      "year":2024,
-      "category":"restoration",
-      "tags":["Blind Restoration","Diffusion Prior","Real-World"],
-      "summary":"利用生成式扩散先验做盲图像恢复，适合归入真实退化恢复与增强方向。",
-      "links":{"paper":"https://arxiv.org/abs/2308.15070","arxiv":"https://arxiv.org/abs/2308.15070","code":"https://github.com/XPixelGroup/DiffBIR"},
-      "status":"已收录"
+      "id": "diffbir-2024",
+      "title": "DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior",
+      "authors": "Lin et al.",
+      "venue": "ECCV 2024",
+      "year": 2024,
+      "category": "sr",
+      "tags": [
+        "Blind Restoration",
+        "Diffusion Prior",
+        "Real-World"
+      ],
+      "summary": "利用生成式扩散先验做盲图像恢复，适合归入真实退化恢复与增强方向。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2308.15070",
+        "arxiv": "https://arxiv.org/abs/2308.15070",
+        "code": "https://github.com/XPixelGroup/DiffBIR"
+      },
+      "status": "已收录",
+      "subcategory": "restoration-generative"
     },
     {
-      "id":"mme-realworld-2025",
-      "title":"MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios?",
-      "authors":"Zhang et al.",
-      "venue":"ICLR 2025",
-      "year":2025,
-      "category":"dataset",
-      "tags":["Benchmark","High-Resolution","Multimodal"],
-      "summary":"面向高分辨率真实场景的多模态评测，可用于图像理解 Benchmark 分类。",
-      "links":{"paper":"https://arxiv.org/abs/2408.13257","arxiv":"https://arxiv.org/abs/2408.13257","code":"https://github.com/yfzhang114/MME-RealWorld"},
-      "status":"已收录"
+      "id": "mme-realworld-2025",
+      "title": "MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios?",
+      "authors": "Zhang et al.",
+      "venue": "ICLR 2025",
+      "year": 2025,
+      "category": "dataset",
+      "tags": [
+        "Benchmark",
+        "High-Resolution",
+        "Multimodal"
+      ],
+      "summary": "面向高分辨率真实场景的多模态评测，可用于图像理解 Benchmark 分类。",
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.13257",
+        "arxiv": "https://arxiv.org/abs/2408.13257",
+        "code": "https://github.com/yfzhang114/MME-RealWorld"
+      },
+      "status": "已收录",
+      "subcategory": "dataset-highres"
+    },
+    {
+      "id": "medsam-2024",
+      "title": "MedSAM: Segment Anything in Medical Images",
+      "authors": "Ma et al.",
+      "venue": "Nature Communications 2024",
+      "year": 2024,
+      "category": "medical",
+      "subcategory": "medical-segmentation",
+      "tags": [
+        "Medical Image",
+        "Segmentation",
+        "Foundation Model"
+      ],
+      "summary": "??????????????????????????????????",
+      "links": {
+        "paper": "https://www.nature.com/articles/s41467-024-44824-z",
+        "arxiv": "https://arxiv.org/abs/2304.12306",
+        "code": "https://github.com/bowang-lab/MedSAM"
+      },
+      "status": "???"
+    },
+    {
+      "id": "llava-onevision-2024",
+      "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+      "authors": "Li et al.",
+      "venue": "arXiv 2024",
+      "year": 2024,
+      "category": "multimodal",
+      "subcategory": "multimodal-reasoning",
+      "tags": [
+        "VLM",
+        "Multimodal",
+        "Reasoning"
+      ],
+      "summary": "????????????????????????????????????????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2408.03326",
+        "arxiv": "https://arxiv.org/abs/2408.03326",
+        "code": "https://github.com/LLaVA-VL/LLaVA-NeXT"
+      },
+      "status": "???"
+    },
+    {
+      "id": "mobile-sam-2023",
+      "title": "MobileSAM: Faster Segment Anything to Everything",
+      "authors": "Zhang et al.",
+      "venue": "arXiv 2023",
+      "year": 2023,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficient",
+        "Segmentation",
+        "Edge"
+      ],
+      "summary": "????????? Segment Anything ???????????????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2306.14289",
+        "arxiv": "https://arxiv.org/abs/2306.14289",
+        "code": "https://github.com/ChaoningZhang/MobileSAM"
+      },
+      "status": "???"
+    },
+    {
+      "id": "glaze-2023",
+      "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+      "authors": "Shan et al.",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "category": "security",
+      "subcategory": "security-watermark",
+      "tags": [
+        "Copyright",
+        "Protection",
+        "Image Generation"
+      ],
+      "summary": "???????????????????????????????????",
+      "links": {
+        "paper": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+        "arxiv": "https://arxiv.org/abs/2302.04222",
+        "code": ""
+      },
+      "status": "???"
+    },
+    {
+      "id": "rt-2-2023",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "authors": "Brohan et al.",
+      "venue": "CoRL 2023",
+      "year": 2023,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "VLA",
+        "Embodied AI"
+      ],
+      "summary": "??-??-?????????????????????????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2307.15818",
+        "arxiv": "https://arxiv.org/abs/2307.15818",
+        "code": ""
+      },
+      "status": "???"
     }
   ]
 }
