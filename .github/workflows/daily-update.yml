@@ -2,7 +2,7 @@ name: Daily Paper Update
 
 on:
   schedule:
-    # 每天北京时间 09:00 运行；GitHub Actions 使用 UTC，所以这里是 01:00 UTC。
+    # Runs every day at 09:00 Beijing time (01:00 UTC).
     - cron: "0 1 * * *"
   workflow_dispatch:
 
@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch recent papers
-        run: python scripts/update_papers.py --max-results 3
+        run: python scripts/update_papers.py --year-from 2025 --year-to 2026 --max-results 1 --sources openalex,arxiv
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
