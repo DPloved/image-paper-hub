@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Fetch recent image-related papers from arXiv and merge them into papers.json."""
 
 from __future__ import annotations
@@ -8,8 +8,8 @@ import json
 import re
 import sys
 import time
-import urllib.parse
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PAPERS_JSON = ROOT / "papers.json"
 ARXIV_API = "https://export.arxiv.org/api/query"
+SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/"
 NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 
 # 你可以按自己的研究方向继续扩展关键词。
@@ -75,6 +76,42 @@ def year_from_date(value: str) -> int:
         return datetime.now(timezone.utc).year
 
 
+def date_only(value: str) -> str:
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        return ""
+
+
+def get_json(url: str, timeout: int = 45) -> dict | None:
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "ImagePaperHub/1.0 (daily paper updater)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except (TimeoutError, urllib.error.URLError, json.JSONDecodeError):
+        return None
+
+
+def fetch_semantic_scholar(arxiv_id: str) -> dict:
+    """Return publication and citation metadata when Semantic Scholar has a match."""
+    url = SEMANTIC_SCHOLAR_API + urllib.parse.quote(f"ARXIV:{arxiv_id}") + "?fields=title,venue,publicationVenue,publicationDate,year,citationCount"
+    payload = get_json(url, timeout=30)
+    if not payload:
+        return {}
+    publication_venue = payload.get("publicationVenue") or {}
+    publication = publication_venue.get("name") or payload.get("venue") or "arXiv"
+    return {
+        "publication": publication,
+        "published_date": payload.get("publicationDate") or "",
+        "citation_count": payload.get("citationCount"),
+        "citation_source": "Semantic Scholar",
+        "citation_updated": datetime.now(timezone.utc).date().isoformat(),
+    }
+
+
 def fetch_arxiv(query: str, max_results: int) -> list[dict]:
     params = urllib.parse.urlencode(
         {
@@ -126,6 +163,7 @@ def fetch_arxiv(query: str, max_results: int) -> list[dict]:
                 "summary": summary[:260] + ("..." if len(summary) > 260 else ""),
                 "year": year_from_date(published),
                 "published": published,
+                "published_date": date_only(published),
                 "arxiv": f"https://arxiv.org/abs/{arxiv_id}",
                 "pdf": f"https://arxiv.org/pdf/{arxiv_id}",
                 "categories": [item for item in categories if item],
@@ -149,7 +187,42 @@ def existing_keys(data: dict) -> set[str]:
     return keys
 
 
+def ensure_metadata_fields(data: dict) -> None:
+    for paper in data.get("papers", []):
+        paper.setdefault("published_date", f"{paper.get('year', '')}-01-01" if paper.get("year") else "")
+        paper.setdefault("publication", paper.get("venue", ""))
+        paper.setdefault("citation_count", None)
+        paper.setdefault("citation_source", "")
+        paper.setdefault("citation_updated", "")
+
+
+def refresh_missing_citations(data: dict, limit: int = 8) -> int:
+    refreshed = 0
+    today = datetime.now(timezone.utc).date().isoformat()
+    for paper in data.get("papers", []):
+        if refreshed >= limit:
+            break
+        arxiv = paper.get("links", {}).get("arxiv", "")
+        if not arxiv or paper.get("citation_updated") == today:
+            continue
+        meta = fetch_semantic_scholar(arxiv_id_from_url(arxiv))
+        time.sleep(1)
+        if not meta:
+            continue
+        if meta.get("citation_count") is not None:
+            paper["citation_count"] = meta["citation_count"]
+            paper["citation_source"] = meta["citation_source"]
+            paper["citation_updated"] = meta["citation_updated"]
+        if meta.get("publication") and paper.get("publication") in ("", "arXiv"):
+            paper["publication"] = meta["publication"]
+        if meta.get("published_date") and not paper.get("published_date"):
+            paper["published_date"] = meta["published_date"]
+        refreshed += 1
+    return refreshed
+
+
 def merge_papers(data: dict, max_results_per_profile: int, dry_run: bool) -> int:
+    ensure_metadata_fields(data)
     keys = existing_keys(data)
     added = 0
 
@@ -165,12 +238,19 @@ def merge_papers(data: dict, max_results_per_profile: int, dry_run: bool) -> int
             if item["arxiv_id"] in keys or title_key in keys:
                 continue
 
+            semantic = fetch_semantic_scholar(item["arxiv_id"])
+            time.sleep(1)
             paper_id = f"arxiv-{slugify(item['arxiv_id'], str(int(time.time())))}"
             paper = {
                 "id": paper_id,
                 "title": item["title"],
                 "authors": item["authors"] or "Unknown authors",
-                "venue": "arXiv",
+                "venue": semantic.get("publication") or "arXiv",
+                "publication": semantic.get("publication") or "arXiv",
+                "published_date": semantic.get("published_date") or item["published_date"],
+                "citation_count": semantic.get("citation_count"),
+                "citation_source": semantic.get("citation_source", ""),
+                "citation_updated": semantic.get("citation_updated", ""),
                 "year": item["year"],
                 "category": profile["category"],
                 "subcategory": profile.get("subcategory", "dataset-task"),
@@ -183,7 +263,8 @@ def merge_papers(data: dict, max_results_per_profile: int, dry_run: bool) -> int
             keys.update({paper_id, item["arxiv_id"], title_key})
             added += 1
 
-    if added and not dry_run:
+    refreshed = refresh_missing_citations(data)
+    if (added or refreshed) and not dry_run:
         data.setdefault("site", {})["updated"] = datetime.now(timezone.utc).date().isoformat()
         PAPERS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return added

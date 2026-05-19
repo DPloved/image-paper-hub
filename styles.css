@@ -269,6 +269,23 @@ input { width: min(320px, 100%); }
 .status { position: absolute; top: 18px; right: 18px; color: var(--muted); font-size: .82rem; }
 .empty { text-align: center; color: var(--muted); padding: 30px; }
 
+.meta-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.meta-badges span {
+  padding: 6px 10px;
+  border: 1px solid rgba(40, 91, 143, 0.14);
+  border-radius: 999px;
+  color: var(--blue);
+  background: rgba(40, 91, 143, 0.08);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
 .footer {
   display: flex;
   align-items: center;
