@@ -333,7 +333,7 @@ def merge_papers(data: dict, max_results_per_profile: int, dry_run: bool, year_f
             added += 1
 
     refreshed = 0
-    if not dry_run:
+    if not dry_run and "semantic" in sources:
         for paper in data.get("papers", [])[:40]:
             if maybe_refresh_citation(paper):
                 refreshed += 1

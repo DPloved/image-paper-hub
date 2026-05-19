@@ -1,4 +1,4 @@
-name: Daily Paper Update
+﻿name: Daily Paper Update
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch recent papers
-        run: python scripts/update_papers.py --year-from 2025 --year-to 2026 --max-results 1 --sources openalex,arxiv
+        run: python scripts/update_papers.py --year-from 2025 --year-to 2026 --max-results 5 --sources openalex,arxiv
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
