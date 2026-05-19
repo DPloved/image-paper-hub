@@ -52,3 +52,23 @@ python -m http.server 8000
 - Folder: `/root`
 
 保存后 GitHub 会生成网站链接。
+
+## 自动检索更新
+
+项目内置了每日自动检索脚本：
+
+```bash
+python scripts/update_papers.py --max-results 3
+```
+
+它会从 arXiv 检索最近的图像相关论文，按方向合并到 `papers.json`，并自动跳过已经存在的标题或 arXiv ID。
+
+默认检索方向在 `scripts/update_papers.py` 的 `SEARCH_PROFILES` 中配置，可按需要增删关键词和分类。
+
+## GitHub 每日自动更新
+
+`.github/workflows/daily-update.yml` 已配置为每天北京时间 09:00 自动运行一次，并在 `papers.json` 有变化时自动提交。
+
+也可以在 GitHub 仓库页面手动运行：
+
+`Actions` → `Daily Paper Update` → `Run workflow`
