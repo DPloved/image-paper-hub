@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-06-07"
+    "updated": "2026-06-08"
   },
   "categories": [
     {
@@ -52265,6 +52265,2658 @@
       "summary": "??????",
       "links": {
         "paper": "https://arxiv.org/abs/2606.05068",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777938",
+      "title": "Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers",
+      "authors": "Jean Cordonnier, Chenghao Xu, Olga Fink, Malcolm Mielle",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-03",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05491",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07514v1",
+      "title": "UniSHARP: Universal Sharp Monocular View Synthesis",
+      "authors": "Meixi Song, Dizhe Zhang, Hao Ren, Ruiyang Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "In this work, we focus on extending SHARP, the popular photorealistic view synthesis method, for universal monocular rendering across a continuum of camera systems, from conventional perspective cameras to wide-field-of-view, fisheye and omnidirectional panora",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07514v1",
+        "arxiv": "https://arxiv.org/abs/2606.07514v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07512v1",
+      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
+      "authors": "Cong Chen, Guo Gan, Kaixiang Ji, ChaoYang Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07512v1",
+        "arxiv": "https://arxiv.org/abs/2606.07512v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07508v1",
+      "title": "Streaming Video Generation with Streaming Force Control",
+      "authors": "Hanhui Wang, Yiming Xie, Haiwen Feng, Zhaoyang Lv et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce StreamForce, a streaming video generation framework that enables physically grounded control through continuous force inputs. Unlike prior video models that train separate models for different force types, assume fixed forces, or rely on non-causa",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07508v1",
+        "arxiv": "https://arxiv.org/abs/2606.07508v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07503v1",
+      "title": "Differences in Detection: Explainability Where it Matters",
+      "authors": "Johannes Theodoridis, Johannes Maucher, Andreas Schilling",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "We propose Differences in Detection (DnD), an intuitive method to compare two object detection models. Based on the same matching algorithm, it complements the standard metrics of mean Average Precision ($mAP$) and TIDE error analysis with the ability to compa",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07503v1",
+        "arxiv": "https://arxiv.org/abs/2606.07503v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07498v1",
+      "title": "Implicit Data Synthesis for Contrastive Unsupervised Data Augmentation",
+      "authors": "Patrick Kage, Trevor Hedges, N. Siddharth, Pavlos Andreadis",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Scientific observations generate large quantities of unlabeled data which is laborious to hand-label, making unsupervised learning techniques valuable for processing datasets. Among these approaches, contrastive learning provides a convenient mechanism for ext",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07498v1",
+        "arxiv": "https://arxiv.org/abs/2606.07498v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07464v1",
+      "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+      "authors": "Zhixuan Liang, Yuxiao Chen, Yurong You, Peter Karkus et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Monolithic vision-action models represent an emerging paradigm in autonomous driving. However, this architecture produces token sequences that quickly exceed real-time computational budgets when encoding extended temporal context for complex interactions. Whil",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07464v1",
+        "arxiv": "https://arxiv.org/abs/2606.07464v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07451v1",
+      "title": "TEVI: Text-Conditioned Editing of Visual Representations via Sparse Autoencoders for Improved Vision-Language Alignment",
+      "authors": "Sweta Mahajan, Sukrut Rao, Jiahao Xie, Alexander Koller et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Vision-language models such as CLIP are highly useful for diverse tasks due to their shared image-text embedding space. Despite this, the image and text embeddings are often poorly aligned, affecting downstream performance. Recent work has shown that this can ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07451v1",
+        "arxiv": "https://arxiv.org/abs/2606.07451v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07436v1",
+      "title": "Skill-3D: Evolving Scene-Aware Skills for Agentic 3D Spatial Reasoning",
+      "authors": "Haoyuan Li, Zhengdong Hu, Jun Wang, Hehe Fan et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "This paper explores agentic 3D spatial understanding, i.e., MLLM agents performing 3D reasoning through tool use. Existing methods often misuse tools and exhibit biased tool preferences under 3D scenarios, leaving the agentic paradigm with only marginal gains ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07436v1",
+        "arxiv": "https://arxiv.org/abs/2606.07436v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07435v1",
+      "title": "The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?",
+      "authors": "Rishabh Jain, Naomi Harte",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset usi",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07435v1",
+        "arxiv": "https://arxiv.org/abs/2606.07435v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07433v1",
+      "title": "Watch, Remember, Reason: Human-View Video Understanding with MLLMs",
+      "authors": "Jiahao Meng, Yue Tan, Qi Xu, Kuan Gao et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from short clips to long, multimodal, and knowledge-intensive video scenarios. These scenarios require models to handle sparse evidence, long-range ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07433v1",
+        "arxiv": "https://arxiv.org/abs/2606.07433v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163748873",
+      "title": "The effect of rotor airflow from plant protection UAV on pesticide application in rice",
+      "authors": "Hao Wang, Cunnian Fu, Sujie Zhou, Zhuan Lin",
+      "venue": "Scientific Reports",
+      "publication": "Scientific Reports",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41598-026-55677-5",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778172",
+      "title": "What's Under the Skin? Estimating Swine Body Condition",
+      "authors": "MK Bashar, Kuljit Bhatti, Gary Rohrer, Madonna Benjamin et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05611",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777188",
+      "title": "Meridian: Metric-Semantic Primitive Matching for Cross-View Geo-Localization Beyond Urban Environments",
+      "authors": "Mason Peterson, Qingyuan Li, Yixuan Jia, Fernando Cladera et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06312",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778113",
+      "title": "Foundation Models for Wireless Communications: From PHY Intelligence to Network Autonomy",
+      "authors": "Le Liang, Jiajia Guo, Jun Zhang (48506), Chan-Byoung Chae et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06239",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778140",
+      "title": "TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation",
+      "authors": "Dongwon Son, Florian Shkurti, Jason Lee, Naman Shah et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06218",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777951",
+      "title": "Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models",
+      "authors": "Haibo Wang, Lifu Huang",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05833",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163812995",
+      "title": "Real-Time Sign Language Chat Application with Speech Output",
+      "authors": "Bidish Kumar Nayak, Bibhuti Kumar Giri, Saudamini Samantaray",
+      "venue": "American Journal of AI Digital Transformation and Regenerative Pharmacist",
+      "publication": "American Journal of AI Digital Transformation and Regenerative Pharmacist",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64751/dszspw04",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163823251",
+      "title": "Code Cache: Attendance &amp; Geofencing System",
+      "authors": "Prabin Kumar Das, Soumya Prakash Behera, Dr. Soumendra Prasad Rout",
+      "venue": "International Journal of AI EBioMedicine Innovations",
+      "publication": "International Journal of AI EBioMedicine Innovations",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64751/apxqww68",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778313",
+      "title": "Deep Learning-based 3D Oral Cavity Reconstruction Using 2D Intraoral Images",
+      "authors": "Jihun Cho, Soo-yeon Jeong, Eun-Jeong Bae, Sun-Young Ihm",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05998",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07419v1",
+      "title": "DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation",
+      "authors": "Tony Danjun Wang, Tolga Birdal, Nassir Navab",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to poor generaliz",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07419v1",
+        "arxiv": "https://arxiv.org/abs/2606.07419v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07401v1",
+      "title": "RealDocBench: A Benchmark for Field-Level QA and Layout Understanding on Real-World Regulated Documents",
+      "authors": "Ameya Joshi, Joon Kim, Gus Eggert, Joseph Bajor et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Document parsing systems are increasingly deployed in high-stakes, regulated workflows such as mortgage underwriting, financial reporting, supply-chain logistics, and clinical records. Yet most public benchmarks evaluate parsers on clean academic layouts or sy",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07401v1",
+        "arxiv": "https://arxiv.org/abs/2606.07401v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07374v1",
+      "title": "Beyond Backscatter: InSAR coherence from detected SAR images",
+      "authors": "Francescopaolo Sica, Andrea Pulella, Michael Schmitt",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "In this work, we propose a deep learning framework for coherence regression directly from detected SAR images, without the need for accurate coregistration. A Residual U-Net is trained using coherence maps derived from precisely coregistered Sentinel-1 SLC dat",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07374v1",
+        "arxiv": "https://arxiv.org/abs/2606.07374v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07368v1",
+      "title": "Mitosis Detection in the Wild: Multi-Tumor and Context-Aware Generalization in the MIDOG 2025 Challenge",
+      "authors": "Marc Aubreville, Jonas Ammeling, Sweta Banerjee, Viktoria Weiss et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Automated mitosis detection is a well-established task in computational pathology. While previous benchmarks focused on scanner-induced domain shift, clinical \"real-world\" application requires models to be robust across the vast variance to be expected in the ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07368v1",
+        "arxiv": "https://arxiv.org/abs/2606.07368v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07366v1",
+      "title": "Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos",
+      "authors": "Anurag Ghosh, Francesco Pittaluga, Khiem Vuong, Angela Chen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Self-driving simulations typically rely on data collected in a small number of cities or on hand-authored synthetic scenarios. Dashcam videos cover a far broader range of locations and situations, including rare or long-tailed scenarios. They are considered le",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07366v1",
+        "arxiv": "https://arxiv.org/abs/2606.07366v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07355v1",
+      "title": "Spatial-Temporal Decoupled Adapter for Micro-gesture Online Recognition",
+      "authors": "Xucheng Shen, Kun Li, Fei Wang, Wei Qian et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Micro-gesture online recognition aims to temporally localize and classify subtle gestures in untrimmed videos. Owing to their extremely short duration, low motion amplitude, and ambiguous visual cues, capturing discriminative spatiotemporal representations rem",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07355v1",
+        "arxiv": "https://arxiv.org/abs/2606.07355v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163826327",
+      "title": "Generative artificial intelligence and synthetic media: A multimodal framework for detection, trust, and authenticity",
+      "authors": "Hari Krishna Silamanthula, Rajesh Molagavalli, Raja Bhushanam Singavarapu, S Sankara Rao Mallavarapu",
+      "venue": "International Journal of Applied Resilience and Sustainability",
+      "publication": "International Journal of Applied Resilience and Sustainability",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.70593/deepsci.0203012",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163817999",
+      "title": "Explainable multimodal deepfake detection across media platforms: A cross-modal transformer framework for trust",
+      "authors": "Hari Krishna Silamanthula, Dr. Yogesh Babu Thunga, Haneef Bapana, Suresh Babu Malakari",
+      "venue": "International Journal of Applied Resilience and Sustainability",
+      "publication": "International Journal of Applied Resilience and Sustainability",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.70593/deepsci.0203011",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163812253",
+      "title": "Text To Image Generator Platform",
+      "authors": "Aditya Kumar Swain Aditya Kumar Swain, Soubhagya Nandi Soubhagya Nandi, Prof. Allupati Ch. Patro Prof. Allupati Ch. Patro",
+      "venue": "International Journal of Science Strategic Management and Technology",
+      "publication": "International Journal of Science Strategic Management and Technology",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.55041/ijsmt.v2i6.089",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777190",
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "authors": "Ziyang Yao, Haochen Liu, Yuncheng Jiang, Zeyu Zhu et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05645",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777183",
+      "title": "V2V-Bench: A Comprehensive Benchmark for Video-to-Video Generation Evaluation",
+      "authors": "Tao Liu, Leela Krishna, Gouti Pavan Kumar, Sreeja K et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05665",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778333",
+      "title": "CoFi-UCGen: Coarse-to-Fine Unsupervised Conditional Generation without Label Priors",
+      "authors": "Shengxi Li, Zanao Hu, Ce Zheng, Mai Xu et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05652",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778219",
+      "title": "ReSAGE-PAR: Representational Similarity Assessment for Generative Expansion in Pedestrian Attribute Recognition",
+      "authors": "Pablo Ayuso-Albizu, Pablo Carballeira, Juan C. SanMiguel, Paula Moral",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-image",
+      "tags": [
+        "Generation",
+        "Image Editing",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06020",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778208",
+      "title": "Can LLMs Be Constrained to the Past? Improving Knowledge Cutoff through Recall-Based Prompting",
+      "authors": "Michiro Asai, Ailiang Lin, Yu Kishimoto, Takao Obi et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-video",
+      "tags": [
+        "Video Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05804",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163753753",
+      "title": "Simulation of transcription factor clustering in nuclei from molecular kinetics",
+      "authors": "Manya Kapoor, Mustafa Mir",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "publication": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64898/2026.06.04.730171",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163760798",
+      "title": "Microstructure imaging of prostate cancer by diffusion MRI",
+      "authors": "Filip Szczepankiewicz, Eleftheria Panagiotaki, Malwina Molendowska, Kevin Sandeman et al.",
+      "venue": "Magnetic Resonance Materials in Physics Biology and Medicine",
+      "publication": "Magnetic Resonance Materials in Physics Biology and Medicine",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1007/s10334-026-01367-2",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163734099",
+      "title": "DataXflowGen for GenAI-driven model generation",
+      "authors": "Samantha A. W. Crouch, Tim Breitenbach",
+      "venue": "Scientific Reports",
+      "publication": "Scientific Reports",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41598-026-56492-8",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07381v1",
+      "title": "Impact of Synthetic Lesional MR Images in Automated Focal Cortical Dysplasia Detection in Low-Data Scenarios",
+      "authors": "Prabhjot Kaur, Hakim Ouaalam, Sedat Kandemirli, Sanjay P. Prabhu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Background and Purpose: Automated detection of focal cortical dysplasia (FCD) requires large volumes of voxelwise lesion-delineated MRI data, which are difficult to acquire. This study aims to generate synthetic MRI data exhibiting FCD, assess their realism, a",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07381v1",
+        "arxiv": "https://arxiv.org/abs/2606.07381v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163744827",
+      "title": "DREAN Teach Me: An Intelligent Tutoring System with NLP and Adaptive Feedback for Elementary School Students",
+      "authors": "Betty Cotrina, Bryan Perez, Sandra Wong-Durand, Pedro Castaneda et al.",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.16487",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777419",
+      "title": "Safe Embodied AI for Long-horizon Tasks: A Cross-layer Analysis of Robotic Manipulation",
+      "authors": "Dabin Kim, Daemin Park, Sangyub Lee, Jinsik Kim et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05660",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777227",
+      "title": "SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents",
+      "authors": "Wenxuan Wang, Haoyu Sun, Fukuan Hou, Mingyang Song et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05761",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778409",
+      "title": "Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation",
+      "authors": "Haocheng Luo, Jiahui Liu, Ruicheng Zhang, Zhizhou Zhong et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06076",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777918",
+      "title": "Parallel Jacobi Decoding for Fast Autoregressive Image Generation",
+      "authors": "Boya Liao, Ying Li (38224), Siyong Jian, Huan Wang (109286)",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05703",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777590",
+      "title": "DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models",
+      "authors": "Zhuoming Liu, Jinhong Lin, Kwan Man Cheng, Lin Zhang et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05758",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778154",
+      "title": "Balancing Image Compression and Generation with Bootstrapped Tokenization",
+      "authors": "Haozhe Chi, Jinghan Li, Hao Jiang, Wu Sheng et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05552",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07431v1",
+      "title": "OpenGlass: Open-Source Smart Glasses for On-Device Event-Based Gesture Recognition",
+      "authors": "Pietro Bonazzi, Julian Moosmann, Ahmet Celik, Philipp Mayer et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "Smart eyewear enables unobtrusive, context-aware interaction through multimodal sensors and on-device intelligence, but is severely limited by power, memory, and compute constraints in a compact form factor. Open-hardware platforms supporting event-based visio",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07431v1",
+        "arxiv": "https://arxiv.org/abs/2606.07431v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163827279",
+      "title": "Advancing Patient-Centered Nursing Practices Through AI-Driven Clinical Decision Support Systems and Personalized Care Plans",
+      "authors": "Amarachi Igwilo",
+      "venue": "International Journal of Computer Applications Technology and Research",
+      "publication": "International Journal of Computer Applications Technology and Research",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-segmentation",
+      "tags": [
+        "Medical Image",
+        "Segmentation",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.7753/ijcatr1212.1021",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163756512",
+      "title": "AI-Based Mobile Application for Real-Time Criminal Event Recognition and Classification",
+      "authors": "Rafael Cachique, Diego Gutierrez, Pedro Castaneda, Sandra Wong-Durand et al.",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-segmentation",
+      "tags": [
+        "Medical Image",
+        "Segmentation",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.17841",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163754703",
+      "title": "Deep learning-driven inversion framework for shear modulus estimation in magnetic resonance elastography",
+      "authors": "Hassan Iftikhar, Rizwan Ahmad, Arunark Kolipaka",
+      "venue": "Magnetic Resonance Materials in Physics Biology and Medicine",
+      "publication": "Magnetic Resonance Materials in Physics Biology and Medicine",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1007/s10334-026-01375-2",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777333",
+      "title": "Benchmark Everything Everywhere All at Once",
+      "authors": "Shiyun Xiong, Dongming Wu, Peiwen Sun, Yuang Ai et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06462",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777708",
+      "title": "Iterative Thresholding Pursuit with Continuation for $\\ell_{1-2}$-Regularized Sparse Recovery",
+      "authors": "Junxi Wu, Zeyu Dong, Jun-Feng Yin",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05657",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07333v1",
+      "title": "Varifold Moment Invariants for Sustainable and Explainable Contour Feature Extraction",
+      "authors": "G. Longari, J. -C. Alvarez Paiva, A. B. Tumpach",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce Varifold Moments Invariants (VMI) as a unifying framework for many previously introduced Moment Invariants. These invariants are deeply related to other contour features that are invariant under translations and rotations, like Extended Gaussian I",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07333v1",
+        "arxiv": "https://arxiv.org/abs/2606.07333v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07289v1",
+      "title": "Closed-Form Spectral Regularization for Multi-Task Model Merging",
+      "authors": "Yongxian Wei, Runxi Cheng, Xingxuan Zhang, Li Shen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Model merging combines several independently fine-tuned experts into a single multi-task model without any training data, reducing the storage, serving, and decentralized-development costs of large foundation models. State-of-the-art merging methods formulate ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07289v1",
+        "arxiv": "https://arxiv.org/abs/2606.07289v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777936",
+      "title": "UltraVR: A Diagnostic Ultra-Resolution Image-VQA Benchmark for Evidence-Grounded Reasoning",
+      "authors": "Gexin Huang, Yanting Yang, Myeongkyun Kang, Beidi Zhao et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-vlm",
+      "tags": [
+        "Medical VLM",
+        "Reliability",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05576",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777332",
+      "title": "Would you still call this Dax? Novel Visual References in VLMs and Humans",
+      "authors": "Ada Defne Tür, Gaurav Kamath, Joyce Chai, Siva Reddy et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-03",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-vlm",
+      "tags": [
+        "Medical VLM",
+        "Reliability",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05409",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163814846",
+      "title": "CardioMorphNet: Cardiac motion prediction using a shape-guided Bayesian recurrent deep network",
+      "authors": "Reza Akbari Movahed",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "publication": "Zenodo (CERN European Organization for Nuclear Research)",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.5281/zenodo.20581057",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777539",
+      "title": "Early psychosis shows deviations in scaling behaviour within a critical regime",
+      "authors": "İrem Topal, Paola Moreno Ancalmo, Guillermo Montana Valverde, Philipp Homan et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06290",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07288v1",
+      "title": "ExMesh: EXplicit Mesh Reconstruction with Topology Adaptation",
+      "authors": "Chuanjin Fan, Lifan Wu, Wenjie Chang, Hanzhi Chang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "Reconstructing surface meshes from multi-view images has remained a core challenge in recent years. Most existing methods, whether implicit or explicit, depend on intermediate representations and post-processing steps like Marching Cubes or TSDF fusion, often ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07288v1",
+        "arxiv": "https://arxiv.org/abs/2606.07288v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07233v1",
+      "title": "Does Appearance Help? A Systematic Study of Image-Based Re-Identification in Online 3D Multi-Pedestrian Tracking",
+      "authors": "Eduardo Borges, Luís Garrote, Urbano J. Nunes",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "LiDAR-based 3D Multi-Object Tracking (MOT) typically relies solely on geometric information, which is often insufficient to distinguish between targets during prolonged occlusions or in crowded human-populated environments. While integrating RGB-based Re-Ident",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07233v1",
+        "arxiv": "https://arxiv.org/abs/2606.07233v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163736965",
+      "title": "IR-WSANet: A lightweight network with frequency-spatial joint optimization for infrared small target detection",
+      "authors": "Zhan Jin, Haonan Chen, Jiaxiang Chen",
+      "venue": "Scientific Reports",
+      "publication": "Scientific Reports",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41598-026-56213-1",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4403579412",
+      "title": "Fundus to fluorescein angiography video generation as a retinal generative foundation model",
+      "authors": "Weiyi Zhang, J. Yang, Ruoyu Chen, Siyu Huang et al.",
+      "venue": "npj Digital Medicine",
+      "publication": "npj Digital Medicine",
+      "published_date": "2026-06-06",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41746-026-02804-1",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778167",
+      "title": "MS-DKC: A Dataset Knowledge Card Framework for Designing and Adapting Medical Image Segmentation Models",
+      "authors": "Tariq M. Khan, Syed S. Naqvi, Thantrira Porntaveetus, Hamid Alinejad-Rokny et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06103",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07394v1",
+      "title": "Mind the Gap: Disentangling Performance Bottlenecks in Video Instance Segmentation",
+      "authors": "Danial Hamdi, Fardin Ayar, Mahdi Javanmardi",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "In Video Instance Segmentation (VIS), classification, segmentation, and tracking objectives are jointly evaluated, but their individual contributions to performance loss remain opaque. We introduce a diagnostic framework that formulates identity and class assi",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07394v1",
+        "arxiv": "https://arxiv.org/abs/2606.07394v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163757391",
+      "title": "Research on Frontier Projects in Psychology",
+      "authors": "zhiqiang liang",
+      "venue": "OpenAlex",
+      "publication": "OpenAlex",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.33774/coe-2026-pzhzn",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163757945",
+      "title": "A Personality-Aware Hybrid Deep Learning Framework for Anxiety and Depression Detection Using a Neuro-Temporal Sparse Modulation Network",
+      "authors": "Raksha Rajanna, Mullur Puttubuddhi Pushpalatha, Impana Kamalamma Puttaraju",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.17502",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163760708",
+      "title": "Unraveling the Complexity of Multilingual Comprehension: Neuroimaging and Linguistic Profiling in 700+ Adults",
+      "authors": "Ileana Quiñones, Amaia Carrión-Castillo, Iñigo Diez-Zabala, Laura De Frutos-Sagastuy et al.",
+      "venue": "Scientific Data",
+      "publication": "Scientific Data",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41597-026-07423-9",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777497",
+      "title": "DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use",
+      "authors": "Runfa Blark Li, Kuang-Ting Tu, Nikola Raicevic, Dwait Bhatt et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05699",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778040",
+      "title": "A Conversational Framework for Human-Robot Collaborative Manipulation with Distributed Generative AI models",
+      "authors": "Arash Ghasemzadeh Kakroudi, Roel Pieters",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06061",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163749357",
+      "title": "Multimodal Contrastive Learning for Zero-Shot Instruction-Following Robot with Synthetic Data",
+      "authors": "Washington Kamadi, Jackson Githu Njiri, Samuel Kangwagye, Shohei Aoki",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-reasoning",
+      "tags": [
+        "VLM",
+        "Reasoning",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.18291",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778435",
+      "title": "M2S-AVSR: Modality-aware Multi-view Self-supervised Representation for Robust Audio-Visual Speech Recognition",
+      "authors": "Fei Su, Cancan Li, Juan Liu, Ming Li",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-reasoning",
+      "tags": [
+        "VLM",
+        "Reasoning",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05763",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777926",
+      "title": "Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack",
+      "authors": "Long P. Hoang, Hai Le, Shaoyang Xu, Wei Lu et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05614",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777945",
+      "title": "Representation Learning Enables Scalable Multitask Deep Reinforcement Learning",
+      "authors": "Johan Obando-Ceron, Lu Li, Scott Fujimoto, Pierre-Luc Bacon et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05555",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777378",
+      "title": "Learning of Robot Safety Policies via Adversarial Synthetic Scenarios",
+      "authors": "Nikolai Dorofeev, Alexey Odinokov, Rostislav Yavorskiy",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05952",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778015",
+      "title": "Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?",
+      "authors": "Rui Zhao, Kaiming Yang, Jifeng Zhu, Siyang Chen et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-03",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.04811",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778004",
+      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+      "authors": "Yi Yang, Zhihong Liu (112690), Siqi Kou, Yiyang Chen et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-driving",
+      "tags": [
+        "Autonomous Driving",
+        "World Model",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05979",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777230",
+      "title": "Bridging CAD and Data-Driven Design: Attributed Feature Graphs for Engineering Design",
+      "authors": "Abhishek Indupally, Ibraheem Alawadhi, Satchit Ramnath, Jami J. Shah",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-driving",
+      "tags": [
+        "Autonomous Driving",
+        "World Model",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06405",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7162722799",
+      "title": "An Ai Economy Beyond Big Tech Hyperscalers? A Taxonomy Of Machine Learning Platform Business Models",
+      "authors": "Mark de Reuver, Jo Lynn Tan, Hanieh Khodaei",
+      "venue": "Journal of the Association for Information Systems",
+      "publication": "Journal of the Association for Information Systems",
+      "published_date": "2026-06-14",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-agent",
+      "tags": [
+        "Agent",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://aisel.aisnet.org/ecis2026/platforms/platforms/3",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163860803",
+      "title": "Online Game Features and Player Immersive Use",
+      "authors": "Shih-I Tai, Ching‐I Teng, Yi‐An Lin, Gen‐Yih Liao et al.",
+      "venue": "Journal of the Association for Information Systems",
+      "publication": "Journal of the Association for Information Systems",
+      "published_date": "2026-06-14",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-agent",
+      "tags": [
+        "Agent",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://aisel.aisnet.org/ecis2026/cog_hbis/cog_hbis/7",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163738885",
+      "title": "Talkative AI and the fiction of artificial minds",
+      "authors": "Tom Roberts",
+      "venue": "Philosophical Studies",
+      "publication": "Philosophical Studies",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-agent",
+      "tags": [
+        "Agent",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1007/s11098-026-02560-8",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778072",
+      "title": "3D Underwater Path Planning via Generative Flow Field Surrogates",
+      "authors": "Zachary Cooper-Baldock, Paulo E. Santos, Russell S. A. Brinkworth, Karl Sammut",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficiency",
+        "Compression",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06077",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777315",
+      "title": "GS-NFS: Bandwidth-adaptive Streaming of Dynamic Gaussian Splats and Point Clouds",
+      "authors": "Rajrup Ghosh, Haodong Wang, Haoran Hong, Eduardo Pavez et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficiency",
+        "Compression",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05650",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777210",
+      "title": "A Surrogate Model for Proton Spectrum Prediction to Map Transitions in Laser-Ion Acceleration",
+      "authors": "Chengqi-Zhang, Yang He, Mamat Ali Bake, Xilin-Wang et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficiency",
+        "Compression",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.06210",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777487",
+      "title": "Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder",
+      "authors": "Yoshiyuki Ootani",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-compression",
+      "tags": [
+        "Efficiency",
+        "Compression",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05981",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163747936",
+      "title": "Generative AI-Driven Optimization in Flexible and Reconfigurable Manufacturing Systems",
+      "authors": "Salah Hammedi, Hicham Chaoui, Lotfi Nabli",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-inference",
+      "tags": [
+        "Inference",
+        "Efficiency",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.16077",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163751297",
+      "title": "Using AI analysis to decode SDG integration in China’s spatial planning",
+      "authors": "Wenze Yue, Nan Chen, Guangyu Zhang",
+      "venue": "npj Urban Sustainability",
+      "publication": "npj Urban Sustainability",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-distillation",
+      "tags": [
+        "Data Distillation",
+        "Data Quality",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s42949-026-00421-1",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163827668",
+      "title": "SuccessionAI: An Intelligent Multi-Agent System for Personalized Individual Development Plans Using Large Language Models and Machine Learning",
+      "authors": "Mohanty Hitesh Rabindranath, Satya Ranjan Pattanaik",
+      "venue": "American Journal of AI Cyber Computing Management",
+      "publication": "American Journal of AI Cyber Computing Management",
+      "published_date": "2026-06-05",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-distillation",
+      "tags": [
+        "Data Distillation",
+        "Data Quality",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64751/ajaccm.2026.v6.n2(2).609",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777602",
+      "title": "UniVoice: A Unified Model for Speech and Singing Voice Generation",
+      "authors": "Junjie Zheng, Huixin Xue, Shihong Ren, Chaofan Ding et al.",
+      "venue": "ArXiv.org",
+      "publication": "ArXiv.org",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-watermark",
+      "tags": [
+        "Watermark",
+        "Copyright",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05852",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163392160",
+      "title": "GenAI & Agentic AI Security Incidents",
+      "authors": "Emmanuel G. Junior Rodrigues",
+      "venue": "Open MIND",
+      "publication": "Open MIND",
+      "published_date": "2026-06-03",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-watermark",
+      "tags": [
+        "Watermark",
+        "Copyright",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://github.com/emmanuelgjr/genai_incidents",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163598174",
+      "title": "FLIPS: Instance-Fingerprinting for LLMs via Pseudo-random Sequences",
+      "authors": "Gurvan Richardeau, Gohar Dashyan, Erwan Le Merrer, Gilles Trédan",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-watermark",
+      "tags": [
+        "Watermark",
+        "Copyright",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.03330",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777776",
+      "title": "Short paper: Models in the dark -- Rectification and erasure under GDPR in ML supply chains",
+      "authors": "H. Grasshoff, Malte Hansen, Meiko Jensen, Sara Ramezanian",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05946",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163734722",
+      "title": "ORBIT-CL: A Semantically-Aware and Lightweight Multimodal Transformer for Cyberbullying Detection",
+      "authors": "Saed Alqaraleh",
+      "venue": "Engineering Technology & Applied Science Research",
+      "publication": "Engineering Technology & Applied Science Research",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-robustness",
+      "tags": [
+        "Robustness",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.48084/etasr.18187",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163818278",
+      "title": "A Hybrid Quantum-Adversarial AI Framework for Defence Vision Security and Content Integrity",
+      "authors": "Mr. Srinivas Dash, Mr. Shubhendu Sekhar Sahoo, Asst. Prof. Swarnananda Muduli",
+      "venue": "International Journal of AI EBioMedicine Innovations",
+      "publication": "International Journal of AI EBioMedicine Innovations",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-robustness",
+      "tags": [
+        "Robustness",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64751/nmvvk556",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163699427",
+      "title": "Medical Device Authentication using a Hybrid SMOTE–Genetic Algorithm and Cat Boost Framework in the Internet of Medical Things",
+      "authors": "Sanjay Kumar, UPASANA DUGAL, Surbhi Saxena, Sanjay Kumar Sonkar et al.",
+      "venue": "Research Square",
+      "publication": "Research Square",
+      "published_date": "2026-06-05",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-robustness",
+      "tags": [
+        "Robustness",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.21203/rs.3.rs-9898793/v1",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7128577029",
+      "title": "Real-time railhead friction estimation using machine learning: development of an on-board-train data capture system",
+      "authors": "M. Folorunso, M. Watson, K. Tomlinson, R. Lewis",
+      "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+      "publication": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+      "published_date": "2026-08-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://openalex.org/W7128577029",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163816258",
+      "title": "Hybrid metaheuristic optimization of convolutional neural networks for tomato leaf disease classification",
+      "authors": "Rajsimar Singh, Law Kumar Singh, Akhilesh Sharma, Munish Khanna",
+      "venue": "Scientific Reports",
+      "publication": "Scientific Reports",
+      "published_date": "2026-06-07",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41598-026-54355-w",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163826127",
+      "title": "Three.js Hand Recognition Panel Using MediaPipe and WebGL",
+      "authors": "Rahul Sharma",
+      "venue": "International Journal of AI Electrical Civil and Mechanical engineering",
+      "publication": "International Journal of AI Electrical Civil and Mechanical engineering",
+      "published_date": "2026-06-06",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64751/r1aq7f07",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778073",
+      "title": "VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training",
+      "authors": "Siyuan Yang, Linzheng Guo, Ouyang Lu, Zhaxizhuoma et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-03",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-super-resolution",
+      "tags": [
+        "Super-Resolution",
+        "Low-Level Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.04708",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777585",
+      "title": "Dead Directions: Geometric Singular Learning",
+      "authors": "Tejas Pradeep Shirodkar",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-attention",
+      "tags": [
+        "Super-Resolution",
+        "Attention",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05957",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163778013",
+      "title": "EEGDancer: Dynamic Emotion Latent Space Masked Modeling with Reinforcement Learning for EEG Continuous Emotion Prediction",
+      "authors": "Zhihao Zhou, Weishan Ye, Li Zhang (8200), Gan Huang et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-attention",
+      "tags": [
+        "Super-Resolution",
+        "Attention",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05855",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07326v1",
+      "title": "AnchorWorld: Embodied Egocentric World Simulation with View-based Evolution Customization",
+      "authors": "Yu Li, Menghan Xia, Gongye Liu, Xintao Wang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-enhancement",
+      "tags": [
+        "Restoration",
+        "Enhancement",
+        "Auto-Fetched"
+      ],
+      "summary": "Despite being a pivotal frontier, interactive world modeling remains underexplored in terms of the versatile controllability required by practical scenarios. To bridge this gap, we present AnchorWorld, a framework that advances egocentric simulation through en",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07326v1",
+        "arxiv": "https://arxiv.org/abs/2606.07326v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-07280v1",
+      "title": "Geometric-Aware Hypergraph Reasoning for Novel Class Discovery in Point Cloud Segmentation",
+      "authors": "Zihao Zhang, Aming Wu, Yang Li, Yahong Han et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-05",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-enhancement",
+      "tags": [
+        "Restoration",
+        "Enhancement",
+        "Auto-Fetched"
+      ],
+      "summary": "Novel class discovery in point cloud segmentation aims to transfer knowledge from known classes to automatically identify and segment unlabeled novel classes in point clouds. Existing methods mainly rely on pairwise associations for class assignment and novel ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.07280v1",
+        "arxiv": "https://arxiv.org/abs/2606.07280v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7163777665",
+      "title": "Physics-Guided Deep Unfolding for Blind Cross-Sensor Spectral Super-Resolution via Learning the Spectral Transformation Function",
+      "authors": "Zhaolin Li, Jinsong Chen, Shanxin Guo, Tuo Zhang et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-06-04",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-06-08",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-generative",
+      "tags": [
+        "Restoration",
+        "Diffusion Prior",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.05759",
         "arxiv": "",
         "code": ""
       },
