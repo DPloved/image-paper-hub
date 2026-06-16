@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-06-14"
+    "updated": "2026-06-15"
   },
   "categories": [
     {
@@ -69218,6 +69218,526 @@
       "links": {
         "paper": "https://arxiv.org/abs/2606.11969",
         "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14703v1",
+      "title": "Gaze Heads: How VLMs Look at What They Describe",
+      "authors": "Rohit Gandikota, David Bau",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its language-model backbone, which we call gaze heads, whose att",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14703v1",
+        "arxiv": "https://arxiv.org/abs/2606.14703v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14702v1",
+      "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
+      "authors": "Xinyue Cai, Chaoyou Fu, Yi-Fan Zhang, Ran He et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This deco",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14702v1",
+        "arxiv": "https://arxiv.org/abs/2606.14702v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14701v1",
+      "title": "RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers",
+      "authors": "Timing Yang, Predrag Neskovic, Jansen Seheult, Wenchao Han et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "When humans see a bird, they recognize far more than just \"bird\" -- they see a head, wings, and talons, a structured assembly of reusable parts that can be identified across every bird they have ever seen. We ask whether a self-supervised visual model can disc",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14701v1",
+        "arxiv": "https://arxiv.org/abs/2606.14701v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14700v1",
+      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+      "authors": "Xichen Pan, Aashu Singh, Satya Narayan Shukla, Xiangjun Fan et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Large language models (LLMs) are widely used in text-to-image (T2I) systems, but they are typically limited to text encoding, while denoising is handled by newly trained generative backbones. The emergence of representation autoencoders (RAEs) shifts the gener",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14700v1",
+        "arxiv": "https://arxiv.org/abs/2606.14700v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14699v1",
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+      "authors": "Ruining Li, Yuxin Yao, Matt Zhou, Chuanxia Zheng et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data for this ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14699v1",
+        "arxiv": "https://arxiv.org/abs/2606.14699v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14697v1",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "authors": "Sicheng Yang, Hangjie Yuan, Wenjun Zhang, Jinwang Wang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Building trustworthy medical multimodal large language models (MLLMs) is critical for reliable clinical decision support. Existing medical hallucination benchmarks mainly focus on data collection, but often ignore where hallucinations originate within the reas",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14697v1",
+        "arxiv": "https://arxiv.org/abs/2606.14697v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14686v1",
+      "title": "CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification",
+      "authors": "Rafi Ahamed, Md. Abir Rahman, Tasnia Tarannum Roza, Munaia Jannat Easha et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Globally, cotton is a highly economically beneficial crop, as the textile industry heavily depends on it. So, the precise identification and detection of cotton leaf disease is crucial for economic stability. The development goal of \"CottonLeafVision\" is to ac",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14686v1",
+        "arxiv": "https://arxiv.org/abs/2606.14686v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14684v1",
+      "title": "HumP-KD: A Hybrid Uncertainty-Aware Multi-Stage Progressive Knowledge Distillation Framework for Efficient Fire Classification",
+      "authors": "Mohammed Arif Mainuddin, Najifa Tabassum, Omar Ibne Shahid, Riasat Khan",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Real-time fire classification systems require models that are simultaneously accurate, computationally efficient, and deployable on resource-constrained hardware. This work proposes \\textbf{HumP-KD}, a Hybrid Uncertainty-aware Multi-stage Progressive Knowledge",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14684v1",
+        "arxiv": "https://arxiv.org/abs/2606.14684v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14667v1",
+      "title": "Memento: Reconstruct to Remember for Consistent Long Video Generation",
+      "authors": "Xuan Wei, Longbin Ji, Guan Wang, Xiangrui Liu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Long-form video generation requires recurring subjects to remain consistent across various shots, viewpoints, motions, and scene transitions. Existing temporal decomposition methods improve scalability by generating videos shot by shot. However, they mainly fo",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14667v1",
+        "arxiv": "https://arxiv.org/abs/2606.14667v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14658v1",
+      "title": "Giving AI a Headache: Acoustic Adversarial Attacks to Computer Vision Applications",
+      "authors": "Nicole Villavicencio-Garduño, Maksim Ekin Eren, Milo Prisbrey, Ben Migliori et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Artificial Intelligence (AI) is increasingly used to automate a variety of real-world computer vision (CV) applications, such as autonomous vehicle control, facial recognition, and security cameras. Recent research has shown that acoustic vibration can induce ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14658v1",
+        "arxiv": "https://arxiv.org/abs/2606.14658v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14619v1",
+      "title": "StereoGeo: an end-to-end stereo camera calibration method",
+      "authors": "Imane Meddour, Andréa Macario Barros, Cédric Gouy-Pailler",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "In this work, we propose StereoGeo, an end-to-end network-based approach for stereo camera calibration. Our method estimates the focal lengths and gravity directions of the left and right cameras, as well as the relative extrinsic transformation relating them.",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14619v1",
+        "arxiv": "https://arxiv.org/abs/2606.14619v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14586v1",
+      "title": "S$^2$COPE: Self-Supervised Concept Discovery via Preference Learning",
+      "authors": "Shilong Xiang, Zirui Zhang, Chengzhi Mao",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Current representation learning paradigms force a fundamental compromise: self-supervised methods scale to massive datasets but yield opaque features, whereas interpretable models remain bottlenecked by the need for dense human annotation. We introduce Self-Su",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14586v1",
+        "arxiv": "https://arxiv.org/abs/2606.14586v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14568v1",
+      "title": "Trimodal Glioma Representation Alignment via Volumetric Contrastive Learning",
+      "authors": "Denise Marini, Eleonora Grassucci, Danilo Comminiello",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Glioma grading and survival prediction require the integration of heterogeneous information collected at different spatial and biological scales. Histopathology describes tissue morphology, mRNA expression captures molecular activity, and magnetic resonance im",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14568v1",
+        "arxiv": "https://arxiv.org/abs/2606.14568v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14562v1",
+      "title": "NEST3D: A High-Resolution Multimodal Dataset of Sociable Weaver Tree Nests",
+      "authors": "Constanza A. Molina Catricheo, Simon Boeder, Ting-Jia Guo, Giacomo May et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Sociable weaver nests function as complex ecological structures offering thermoregulatory microhabitats and sustaining diverse species; however, datasets used in prior studies lack fine-grained 3D structural detail. Producing usable and accurate 3D weaver nest",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14562v1",
+        "arxiv": "https://arxiv.org/abs/2606.14562v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14556v1",
+      "title": "Visual Quality Score Assessment of Large White Goods in Remanufacture with Multi-View Deformable-DETR",
+      "authors": "Paul Koch, Vivek Chavan",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Remanufacturing large white goods is essential for a circular economy, yet visual quality assessment remains a manual bottleneck for training and pricing. Conventional detection methods require extensive annotation and struggle with small defects in high-resol",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14556v1",
+        "arxiv": "https://arxiv.org/abs/2606.14556v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14555v1",
+      "title": "Rethinking Global Average Pooling: Your Classifier Is Secretly a Multi-Instance Learner",
+      "authors": "Aray Karjauv",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Modern image classifiers widely adopt global average pooling (GAP) followed by a linear classification head. This linearity ensures that the image-level logits equal the average of logits obtained by applying the classification head pointwise to the feature gr",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14555v1",
+        "arxiv": "https://arxiv.org/abs/2606.14555v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14657v1",
+      "title": "HPSv3++: Scaling Reward Models Across the Full Spectrum of Diffusion Model Capabilities",
+      "authors": "Yijun Liu, Jie Huang, Zeyue Xue, Yuming Li et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Reward models guide text-to-image (T2I) systems toward outputs aligned with human preferences. However, typical reward models such as HPSv3 are trained on pre-annotated data from earlier T2I models, without accounting for quality discriminative shifts arising ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14657v1",
+        "arxiv": "https://arxiv.org/abs/2606.14657v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14638v1",
+      "title": "Improving Lunar Topography with Deep Learning Schrödinger Bridges",
+      "authors": "Matthew Repasky, Erwan Mazarico, Michael K. Barker, Stefano Bertone et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Increasing the resolution of planetary topography models can enable a better understanding of surface processes and geomorphology; however, existing analytical super-resolution methods are expensive and difficult to apply at large scales. Generative models pro",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14638v1",
+        "arxiv": "https://arxiv.org/abs/2606.14638v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14631v1",
+      "title": "SED:Lightweight Saliency prediction for Event-based data via Distillation",
+      "authors": "Romaric Mazna, Jean Martinet, Michele Magno",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Event-based saliency prediction has gained attention recently, as combining event cameras with saliency estimation can act as an upstream stage that naturally improves the efficiency of downstream eventbased perception at the edge. However, current approaches ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14631v1",
+        "arxiv": "https://arxiv.org/abs/2606.14631v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-14578v1",
+      "title": "A Qualitative Review of GenAI-Based Methods for Data Generation and Augmentation in Industrial Computer Vision Applications",
+      "authors": "Paul Koch, Paul Hofmann, Ferdinand Waßelewsky, Adem Karakurt et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-12",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-detection",
+      "tags": [
+        "Detection",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "AI-driven computer vision applications require a profound database to ensure predictable behaviors and performance. Such predictable behaviors are especially important for industrial applications in gaining trust from users. However, such a database is not rea",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.14578v1",
+        "arxiv": "https://arxiv.org/abs/2606.14578v1",
         "code": ""
       },
       "status": "??????????"
