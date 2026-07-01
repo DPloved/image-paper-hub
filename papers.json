@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-06-30"
+    "updated": "2026-07-01"
   },
   "categories": [
     {
@@ -106034,6 +106034,318 @@
       "links": {
         "paper": "https://doi.org/10.1038/s41598-026-56488-4",
         "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32040v1",
+      "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
+      "authors": "Kartik Narayan, Vishal M. Patel",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additio",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32040v1",
+        "arxiv": "https://arxiv.org/abs/2606.32040v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32039v1",
+      "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+      "authors": "Bin Lin, Zheyuan Liu, Chenguo Lin, Sixiang Chen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of wha",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32039v1",
+        "arxiv": "https://arxiv.org/abs/2606.32039v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32036v1",
+      "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
+      "authors": "Yujie Guo, Yudong Jin, Lingteng Qiu, Zehong Shen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent fee",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32036v1",
+        "arxiv": "https://arxiv.org/abs/2606.32036v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32033v1",
+      "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
+      "authors": "Or Hirschorn, Aaron Olender, Eli Alshan, Ianir Ideses et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce pa",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32033v1",
+        "arxiv": "https://arxiv.org/abs/2606.32033v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32018v1",
+      "title": "Automated Background Swapping for Robustness against Spurious Backgrounds",
+      "authors": "Cesar Roder, Kajetan Schweighofer",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Classifiers based on Deep Neural Networks exhibit strong performance across domains, yet can fail catastrophically if they rely on spurious correlations, i.e., features that are predictive of the target label in the training data but are not causally linked an",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32018v1",
+        "arxiv": "https://arxiv.org/abs/2606.32018v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-31986v1",
+      "title": "CoLT: Teaching Multi-Modal Models to Think with Chain of Latent Thoughts",
+      "authors": "Lianyu Hu, Shengqian Qin, Zeqin Liao, Qing Guo et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Chain-of-thought (CoT) reasoning has enabled multi-modal large language models (MLLMs) to tackle complex visual reasoning tasks by generating explicit intermediate reasoning steps in natural language. However, this text-based reasoning paradigm is inherently s",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.31986v1",
+        "arxiv": "https://arxiv.org/abs/2606.31986v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-31982v1",
+      "title": "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs",
+      "authors": "Yuhao Wang, Mu Qiao, Haiwen Diao, Yunzhi Zhuge et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Multimodal Large Language Models (MLLMs) incur prohibitive inference costs due to long visual token sequences. Training-free visual token reduction provides an efficient solution. However, existing methods distort attention distributions, giving rise to a phen",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.31982v1",
+        "arxiv": "https://arxiv.org/abs/2606.31982v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-31981v1",
+      "title": "LUNA: Learning Universal 3D Human Animation Beyond Skinning",
+      "authors": "Peng Li, Rawal Khirodkar, Junxuan Li, Yuan Dong et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Creating photorealistic, animatable 3D human avatars from monocular images still largely depends on Linear Blend Skinning (LBS) and parametric body models, which constrain expressivity and often introduce artifacts due to imperfect fitting. We propose LUNA, an",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.31981v1",
+        "arxiv": "https://arxiv.org/abs/2606.31981v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-31959v1",
+      "title": "AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer",
+      "authors": "Xinyu Hou, Xiaoming Li, Zongsheng Yue, Chen Change Loy",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Depth-of-field control is a fundamental tool in photography, yet post-capture bokeh editing from a single image remains challenging. A practical editor should handle images captured under arbitrary focus and aperture settings. Existing methods typically assume",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.31959v1",
+        "arxiv": "https://arxiv.org/abs/2606.31959v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-31956v1",
+      "title": "DEMUN: Fast and accurate discovery of music notation in very large collections",
+      "authors": "Vojtěch Dvořák, Filip Bím, Jiří Mayer, Martina Dvořáková et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Much of written musical heritage is preserved and digitised at memory institutions: libraries, museums, and archives. Owing to their collection structures, sheet music tends to be concentrated in large subsets that are defined as collections of music, with cor",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.31956v1",
+        "arxiv": "https://arxiv.org/abs/2606.31956v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32020v1",
+      "title": "Cross-Space Distillation: Teaching One-Step Students with Modern Diffusion Teachers",
+      "authors": "Anh Nguyen, Ngan Nguyen, Duc Vu, Trung Dao et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-generative",
+      "tags": [
+        "Restoration",
+        "Diffusion Prior",
+        "Auto-Fetched"
+      ],
+      "summary": "Modern one-step diffusion models achieve impressive quality through distribution-based timestep distillation. Yet, they rely on a critical assumption: Teacher and Student must inhabit the same latent space. This Shared-Space constraint prevents knowledge trans",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32020v1",
+        "arxiv": "https://arxiv.org/abs/2606.32020v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2606-32012v1",
+      "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+      "authors": "Sanghyuk Chun, William Yang, Amaya Dharmasiri, Olga Russakovsky",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-06-30",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-generative",
+      "tags": [
+        "Restoration",
+        "Diffusion Prior",
+        "Auto-Fetched"
+      ],
+      "summary": "Uncertainty estimation has been a long-standing challenge in AI models; it amounts to \"knowing what you don't know,\" and metacognition is notoriously difficult even for humans (cf. the Dunning-Kruger effect). Although it is still far from solved even in simple",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2606.32012v1",
+        "arxiv": "https://arxiv.org/abs/2606.32012v1",
         "code": ""
       },
       "status": "??????????"
