@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-07-23"
+    "updated": "2026-07-24"
   },
   "categories": [
     {
@@ -166302,6 +166302,474 @@
       "links": {
         "paper": "https://arxiv.org/abs/2607.15711",
         "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21595v1",
+      "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+      "authors": "Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified fram",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21595v1",
+        "arxiv": "https://arxiv.org/abs/2607.21595v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21594v1",
+      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "authors": "Sicheng Mo, Yuheng Li, Ziyang Leng, Krishna Kumar Singh et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as con",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21594v1",
+        "arxiv": "https://arxiv.org/abs/2607.21594v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21592v1",
+      "title": "Unified Video Dense Prediction from Disjoint Data",
+      "authors": "Yihong Sun, Seoung Wug Oh, Jiahui Huang, Bharath Hariharan et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Scene understanding requires simultaneous prediction about geometry, appearance, and semantics. However, existing task-specific annotations are fragmented across incompatible, domain-specific datasets. Current unified systems circumvent this by restricting tra",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21592v1",
+        "arxiv": "https://arxiv.org/abs/2607.21592v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21591v1",
+      "title": "Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning",
+      "authors": "Rogerio Guimaraes, Pietro Perona",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Diffusion and flow-matching models dominate conditional image generation, yet inference-time scaling for these models is far less developed than for autoregressive language models. Because final quality is highly sensitive to the initial noise seed, many appro",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21591v1",
+        "arxiv": "https://arxiv.org/abs/2607.21591v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21582v1",
+      "title": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
+      "authors": "Yu Qi, Zhang Ye, Xinyi Xu, Yuxuan Lu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Compositional generalization is essential for robot to follow diverse instructions. However, pretrained policies are known to take shortcuts, deferring to salient cues rather than grounding language. We introduce a diagnostic framework that localizes this fail",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21582v1",
+        "arxiv": "https://arxiv.org/abs/2607.21582v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21580v1",
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "authors": "Vedant Shah, Onkar Susladkar, Tushar Prakash, Kiet Nguyen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires us",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21580v1",
+        "arxiv": "https://arxiv.org/abs/2607.21580v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21577v1",
+      "title": "Synthetic data generation framework for quality control automation in gravure printing",
+      "authors": "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning mod",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21577v1",
+        "arxiv": "https://arxiv.org/abs/2607.21577v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21576v1",
+      "title": "Self-Supervised Learning of Structured Dynamics from Videos",
+      "authors": "Lukas Knobel, Andrew Zisserman, Yuki M. Asano",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Understanding motion in video is a fundamental challenge for visual learning, as frame-to-frame change entangles two sources of dynamics: camera motion and object motion. This decomposition has remained underexplored in representation learning, partly because ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21576v1",
+        "arxiv": "https://arxiv.org/abs/2607.21576v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21562v1",
+      "title": "Scene Parameter Saliency via Differentiable Light Transport",
+      "authors": "Linas Beresna, Eugene Fiume",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Gradient-based saliency methods reveal which input features most influence a neural network's output, and are a standard tool for model interpretability. We observe that differentiable renderers, which are conventionally used for parameter optimisation, produc",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21562v1",
+        "arxiv": "https://arxiv.org/abs/2607.21562v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21556v1",
+      "title": "Visual Contrastive Self-Distillation",
+      "authors": "Yijun Liang, Yunjie Tian, Yijiang Li, Yuqi Jia et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning sign",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21556v1",
+        "arxiv": "https://arxiv.org/abs/2607.21556v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21545v1",
+      "title": "Towards Robust Iris Recognition Through Occlusion Identification and Conditional Diffusion-Based Reconstruction",
+      "authors": "Kamrul Hasan, Mylene C. Q. Farias, Oleg V. Komogortsev",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Iris recognition is a reliable biometric approach that identifies individuals using the distinctive and stable texture of the iris. However, recognition performance can degrade when discriminative iris texture is partially occluded by eyelids, eyelashes, specu",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21545v1",
+        "arxiv": "https://arxiv.org/abs/2607.21545v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21529v1",
+      "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
+      "authors": "Yueyi Liu, Chi Zhang, Sen Cui, Miao Liu",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Test-Time Tuning (TTT) on pretrained diffusion models has emerged as a powerful paradigm for video editing. However, there exists a foundational mismatch between the distribution-mapping nature of generative models and the single-point optimization of standard",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21529v1",
+        "arxiv": "https://arxiv.org/abs/2607.21529v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21526v1",
+      "title": "Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving",
+      "authors": "Mengshi Qi, Xiaoyang Bi, Xianlin Zhang, Huadong Ma",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Self-supervised depth estimation is challenging for safe autonomous driving under various adverse weather conditions due to sensor perception degradation. These challenges arise from two main aspects. Firstly, adverse conditions can distort pixel correspondenc",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21526v1",
+        "arxiv": "https://arxiv.org/abs/2607.21526v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21504v1",
+      "title": "Texture++: Elevating 3D Asset Texture Resolution with a Region-Aware Diffusion Model",
+      "authors": "Shuaiwei Wang, Shi Li, Jieting Xu, Yuchi Huo et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Numerous 3D assets are discarded due to low texture resolution, while current super-resolution models ignore texture maps and focus on natural images. An efficient and generalizable texture super-resolution model can revitalize a large corpus of aging yet valu",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21504v1",
+        "arxiv": "https://arxiv.org/abs/2607.21504v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21553v1",
+      "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
+      "authors": "Junsong Chen, Jincheng Yu, Yitong Li, Shuchen Xue et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce SANA-Video 2.0, a hybrid video diffusion transformer instantiated at 5B and 14B scales under a unified architecture. Designed to generate high-quality video up to 720p on a single GPU, SANA-Video 2.0 matches full-softmax video DiTs in quality whil",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21553v1",
+        "arxiv": "https://arxiv.org/abs/2607.21553v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21546v1",
+      "title": "UnDA: Unpaired Domain Alignment for Cross-Modal Knowledge Transfer in Medical Imaging",
+      "authors": "Rafsan Jany, Shadab Tanjeed Ahmad, Ahsan Bulbul, Tahsinul Islam et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Multimodal based approaches often outperform single modality approaches in downstream tasks as the different modalities provide complementary information, yet acquiring paired clinical data remains a significant challenge in real world scenarios. While cross-m",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21546v1",
+        "arxiv": "https://arxiv.org/abs/2607.21546v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21522v1",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "authors": "Hongxin Zhang, Chunru Lin, Junyan Li, Zhou Xian et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and vis",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21522v1",
+        "arxiv": "https://arxiv.org/abs/2607.21522v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2607-21467v1",
+      "title": "CLUIE: Clustering-Aware Recurrent Propagation with Local Structural Compensation for Underwater Image Enhancement",
+      "authors": "Kui Jiang, Zefan Feng, Laibin Chang, Yan Luo et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-07-23",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-detection",
+      "tags": [
+        "Detection",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Underwater image enhancement remains challenging due to wavelength-dependent light absorption, scattering, and backscattering, which jointly cause color distortion, contrast degradation, and detail loss. Since these degradations vary with scene depth and imagi",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2607.21467v1",
+        "arxiv": "https://arxiv.org/abs/2607.21467v1",
         "code": ""
       },
       "status": "??????????"
