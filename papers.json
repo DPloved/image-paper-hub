@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "categories": [
     {
@@ -232654,6 +232654,552 @@
       "links": {
         "paper": "https://doi.org/10.64823/ijcml.2601001",
         "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14546v1",
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "authors": "Qinye Zhou, Jun Zheng, Yongchao Du, Yuan Wang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14546v1",
+        "arxiv": "https://arxiv.org/abs/2608.14546v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14543v1",
+      "title": "MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration",
+      "authors": "Mahesh Reddy, Yashesh Savani, Antoine Mercier, Hong Cai et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally ex",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14543v1",
+        "arxiv": "https://arxiv.org/abs/2608.14543v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14539v1",
+      "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+      "authors": "Karel Becerra, Boris Mederos, Dean Snow, Ramón A. Mollineda",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced b",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14539v1",
+        "arxiv": "https://arxiv.org/abs/2608.14539v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14530v1",
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "authors": "Zian Meng, Zhen Li, Chuanhao Li, Qiang Li et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, erro",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14530v1",
+        "arxiv": "https://arxiv.org/abs/2608.14530v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14435v1",
+      "title": "Style or Signature? Artist-Disjoint Evaluation of Style Classification in Frozen Vision Embeddings",
+      "authors": "Rory Ashton",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Frozen image embeddings from models such as CLIP are increasingly used to classify paintings by art-historical style, with high reported accuracy. We ask whether this accuracy reflects an understanding of style or the recognition of individual artists. Standar",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14435v1",
+        "arxiv": "https://arxiv.org/abs/2608.14435v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14430v1",
+      "title": "Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View",
+      "authors": "Yixian Xu, Yuanrui Zhang, Shengjie Luo, Liwei Wang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Reinforcement learning (RL) post-training provides a direct way to align diffusion models with human preferences and task-specific rewards. However, current RL algorithms for diffusion models remain fragmented: reverse-trajectory methods rely on discretized li",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14430v1",
+        "arxiv": "https://arxiv.org/abs/2608.14430v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14428v1",
+      "title": "GhostPoint: Self-Supervised Representation Learning by Hallucinating Occluded LiDAR Structure",
+      "authors": "Mohamed Abdelsamad, Bin Yang, Michael Ulrich, Miao Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "3D object detection from LiDAR point clouds is a core problem in autonomous driving. Recent advances in self-supervised learning (SSL) enable scalable pretraining and transfers well to per-point tasks such as semantic and panoptic segmentation, but transfer to",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14428v1",
+        "arxiv": "https://arxiv.org/abs/2608.14428v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14422v1",
+      "title": "UMPIRE-Net: Unrolled Magnitude-Phase Regularization Network for Accelerated MRI",
+      "authors": "Mahdi Saberi, Toygan Kiliç, Mehmet Akçakaya",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "MRI reconstruction from undersampled k-space measurements is an ill-posed inverse problem. Physics-driven deep learning (PD-DL) methods have shown strong performance for this task by combining the MRI forward model with learned image regularization within algo",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14422v1",
+        "arxiv": "https://arxiv.org/abs/2608.14422v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14403v1",
+      "title": "CRAFT: Constrained Reward via Attention Fine-Tuning for Subject Personalization without Composed Targets",
+      "authors": "Jihun Park, Kyoungmin Lee, Jongmin Gim, Hyeonseo Jo et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Subject-driven image personalization---generating new images that preserve the identity of one or several reference subjects in novel scenes---is a foundational capability for modern visual content creation. It is currently dominated by generalized methods tha",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14403v1",
+        "arxiv": "https://arxiv.org/abs/2608.14403v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14394v1",
+      "title": "IRGNN: Efficient Invariant Radar Graph Neural Network for Radar Point Cloud Object Detection",
+      "authors": "Xiao Guo, Wanke Xia, Lili Yang, Caicong Wu",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Perception is a fundamental component of autonomous driving systems. While LiDAR-based methods have achieved remarkable progress in object detection, their reliability can degrade under adverse weather conditions. Radar point clouds provide a robust alternativ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14394v1",
+        "arxiv": "https://arxiv.org/abs/2608.14394v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14366v1",
+      "title": "Weakly Supervised Polar Low Segmentation in Sentinel-1 SAR Imagery",
+      "authors": "Andrea Federici, Jakob Grahn, Giacomo Boracchi, Filippo Maria Bianchi",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Polar lows are intense maritime cyclones that form rapidly at high latitudes. Deep learning can detect them in Synthetic Aperture Radar (SAR) imagery, but pixel-level segmentation remains an open challenge. No pixel-level masks are available for training, and ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14366v1",
+        "arxiv": "https://arxiv.org/abs/2608.14366v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14309v1",
+      "title": "Spatial Message Passing in Language Space for Pathology Image Interpretation",
+      "authors": "Jing-Cheng Yang, Hao-Jung Wang, Jinhao Du, Yang Hu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Multimodal Large Language Models (MLLMs) can generate pathological descriptions from histological images, but gigapixel Whole Slide Images (WSIs) exceed their visual context limits. The standard tiling workaround makes WSIs tractable yet severs the tissue neig",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14309v1",
+        "arxiv": "https://arxiv.org/abs/2608.14309v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14282v1",
+      "title": "MAGneT-3D: Monocular and Domain-Generalizable Temporal 3D Detection",
+      "authors": "Mohamed Kotb, Johannes Meier, Christoph Reich, Oussema Dhaouadi et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Monocular temporal 3D detection aims to detect objects in 3D, given a monocular video. Query-based 3D detectors unify detection and cross-view association, but their learnable queries fit the spatial distribution of the training data (e.g., field-of-view). We ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14282v1",
+        "arxiv": "https://arxiv.org/abs/2608.14282v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14281v1",
+      "title": "Learning to Forecast Crop Growth from Earth Observation Data",
+      "authors": "Dominik Senti, Mehmet Ozgur Turkoglu, Michele Volpi, Helge Aasen",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Forecasting crop growth across agricultural landscapes is important for improving the productivity, resilience, and operational management of farming systems. In this work, we investigate whether Earth observation time series and meteorological drivers can be ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14281v1",
+        "arxiv": "https://arxiv.org/abs/2608.14281v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14266v1",
+      "title": "Accelerating Large-scale Bundle Adjustment for LiDAR Mapping via Parallel Computing",
+      "authors": "Yixi Cai, Rundong Li, Yuhan Xie, Qingwen Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "LiDAR bundle adjustment is widely utilized in mapping to construct globally consistent point cloud maps. In this paper, we propose the first fully parallel computing framework to accelerate LiDAR bundle adjustment for large-scale mapping, incorporating three k",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14266v1",
+        "arxiv": "https://arxiv.org/abs/2608.14266v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14391v1",
+      "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+      "authors": "Shuo Liang, Yixing Ma, Pengfei Zhou, Xingyan Chen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world crises, creating substantial risks of misinformation. Existing benchmarks, however, provide limited evidence on detector and generator behav",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14391v1",
+        "arxiv": "https://arxiv.org/abs/2608.14391v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14321v1",
+      "title": "TRIAGE: Risk-Controlled Pseudo-Label Admission for Annotation-Efficient Semi-Supervised Retinal OCT Classification",
+      "authors": "Md Ashraful Hossen Akash, Shyla Afroge, Abdullah Al Mamun, Md. Kishor Morol et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "The advanced retinal disease diagnosing imaging modality, optical coherence tomography (OCT), encounters a lack of automation because of the high expenses for annotations performed by specialists. The use of SSL solves the problem of insufficient annotations u",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14321v1",
+        "arxiv": "https://arxiv.org/abs/2608.14321v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14389v1",
+      "title": "GBU-Palm: A Multimodal Video Dataset and Benchmark for Palm Presentation Attack Detection",
+      "authors": "Yingjie Ma, Zitong Yu, Wei Jia, Ajay Kumar et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "Existing palm presentation attack detection (PAD) datasets are often limited by static imagery, restricted acquisition conditions, or insufficient multimodal video data, hindering systematic evaluation across environments, modalities, and attack types. We pres",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14389v1",
+        "arxiv": "https://arxiv.org/abs/2608.14389v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14377v1",
+      "title": "A Survey of Large Models in Sports",
+      "authors": "Yichen Xu, Jianzhe Ma, Chuhan Wang, Zhonghao Cao et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14377v1",
+        "arxiv": "https://arxiv.org/abs/2608.14377v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14317v1",
+      "title": "Intelligent Detection of Mechanical, Electrical, and Plumbing (MEP) Metrics Based on 2D Floor Plans",
+      "authors": "Tarandeep Singh Mandhiratta, ANK Zaman, Abdul-Rahman Mawlood-Yunis",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "This research developed a neural network-based model to extract various information from 2D floor plans. We detect lighting symbols, identify the appropriate type of light, and extract the associated texts with lights. The study aims to enable efficient floor ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14317v1",
+        "arxiv": "https://arxiv.org/abs/2608.14317v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-14293v1",
+      "title": "Conditional Neural Optimal Transport for Predicting Cellular Phenotypes from Molecular Structure",
+      "authors": "Gauthier Avité, Maxime Sanchez-Renauld, Nicolas Bourriez, Auguste Genovesio",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-14",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-detection",
+      "tags": [
+        "Detection",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "High-content microscopy enables systematic profiling of cellular responses to chemical perturbations, but the scale of the chemical space makes exhaustive phenotypic characterization experimentally infeasible. This motivates computational models that can predi",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.14293v1",
+        "arxiv": "https://arxiv.org/abs/2608.14293v1",
         "code": ""
       },
       "status": "??????????"
