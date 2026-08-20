@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-08-19"
+    "updated": "2026-08-20"
   },
   "categories": [
     {
@@ -238790,6 +238790,578 @@
       "links": {
         "paper": "https://doi.org/10.3991/ijoe.v22i08.61385",
         "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19177v1",
+      "title": "Image-Guided Pavement Defect Recognition in GPR Data with novel 3D Deep Learning Architecture",
+      "authors": "Yuandong Pan, Linjun Lu, Mudan Wang, Florian Noichl et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Ground Penetrating Radar (GPR) is a widely adopted non-destructive sensing technology for subsurface inspection in civil and transportation engineering. Despite its potential for pavement condition assessment, the large-scale application of GPR in automated in",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19177v1",
+        "arxiv": "https://arxiv.org/abs/2608.19177v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19088v1",
+      "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
+      "authors": "Longtian Wang, Zhengyu Zhao, Chenhao Lin, Le Yang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Object detection models deployed in safety-critical applications remain vulnerable to backdoor attacks that cause targeted misbehaviors when a hidden trigger is present. Existing detection methods either rely on trigger inversion or exploit architecture-specif",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19088v1",
+        "arxiv": "https://arxiv.org/abs/2608.19088v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19080v1",
+      "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+      "authors": "Changshun Wu, Weicheng He, Xiaowei Huang, Saddek Bensalem",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either constru",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19080v1",
+        "arxiv": "https://arxiv.org/abs/2608.19080v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19078v1",
+      "title": "Subgroup performance analysis of adaptation strategies for chest X-ray foundation models",
+      "authors": "Dhruv Gupta, Emma A. M. Stanley, Fabio De Sousa Ribeiro, Sujal Desai et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Foundation models are increasingly adapted for downstream medical imaging tasks, yet the influence of the chosen adaptation strategy on subgroup fairness remains poorly understood. We investigate how three parameter-efficient adaptation techniques, including l",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19078v1",
+        "arxiv": "https://arxiv.org/abs/2608.19078v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19075v1",
+      "title": "ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models",
+      "authors": "Jihae Jeong, Junha Choi, Hwanjo Yu",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Large vision-language models (LVLMs) often hallucinate, generating content that the input image does not support. Preventing such content during decoding calls for a candidate-specific measure of how strongly the image supports the token under consideration. T",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19075v1",
+        "arxiv": "https://arxiv.org/abs/2608.19075v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19066v1",
+      "title": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting",
+      "authors": "Yechan Park, HyunJin Kim",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "This paper proposes a lightweight, plug-and-play framework that improves robustness to viewpoint shifts in Vision-Language-Action (VLA) policies without policy retraining. To our knowledge, this is the first approach to directly leverage 3D Gaussian-based nove",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19066v1",
+        "arxiv": "https://arxiv.org/abs/2608.19066v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19063v1",
+      "title": "When Two Tracers Disagree: An Investigation of Multimodal Fusion for Clinical PET/CT Segmentation",
+      "authors": "Jack A. Johnson, Bartłomiej W. Papież",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "PSMA and FDG PET/CT visualise complementary biological information in prostate cancer. Combining both tracers could capture heterogeneous tumour phenotypes that may be missed by either alone, yet there is no consensus on effective deep learning architectures f",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19063v1",
+        "arxiv": "https://arxiv.org/abs/2608.19063v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19059v1",
+      "title": "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding",
+      "authors": "Yumin Lee, Hyoseok Ju, Giseop Kim",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cross-session ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19059v1",
+        "arxiv": "https://arxiv.org/abs/2608.19059v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19055v1",
+      "title": "Generalized Audio-Driven Synthesis of Precise Drummer Motion",
+      "authors": "Álvaro G. Iñesta, Mattia Ryffel, Amit H. Bermano, Robert W. Sumner et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Music-driven character animation enables and enhances transformative applications in entertainment and interactive education. However, synthesizing realistic drumming motion from audio remains challenging due to the inherent tension between high-acceleration d",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19055v1",
+        "arxiv": "https://arxiv.org/abs/2608.19055v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19043v1",
+      "title": "Bernstein-Vazirani Networks: Quantum Machine Learning by Interference",
+      "authors": "Natacha Kuete Meli, Tolga Birdal, Prayag Tiwari, Vladislav Golyanik et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce Bernstein-Vazirani Networks (BVNs), a non-variational quantum machine learning framework that leverages quantum interference for supervised learning, demonstrated on vision and representation learning tasks. In their standard form, BVNs follow the",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19043v1",
+        "arxiv": "https://arxiv.org/abs/2608.19043v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19036v1",
+      "title": "USR-Drive: Unified Driving Scene Representation via Joint Denoising of 3D Gaussians and Boxes",
+      "authors": "Li-Heng Chen, Haokai Pang, Chengye Su, Jiarun Liu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Spatial representation learning for autonomous driving aims to map raw visual signals into structured 3D scene representations, where object-centric bounding boxes and rendering-oriented 3D primitives (\\eg, 3D Gaussians) serve as two distinct yet highly comple",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19036v1",
+        "arxiv": "https://arxiv.org/abs/2608.19036v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19021v1",
+      "title": "Orthogonal Polynomial Approximation for Matrix Log Normalization in Global Covariance Pooling",
+      "authors": "Md Rifat Ur Rahman, Md Raihan Khan, Md Sakib Hossain Shovon, Pietro Liò et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Global Covariance Pooling (GCP) improves deep networks by capturing second-order feature statistics, and is especially effective for fine-grained recognition. Because covariance matrices live on the Symmetric Positive Definite (SPD) manifold, a normalization s",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19021v1",
+        "arxiv": "https://arxiv.org/abs/2608.19021v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19000v1",
+      "title": "Mise-en-Scène: Implicit Layout Emergence in Diffusion Transformers for Human-AI Design Co-Creation",
+      "authors": "Zipeng Xu, Ryan Murdock, Umberto Michieli",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Automating graphic design synthesis from user-provided elements requires both a coherent overall composition and the exact preservation of each asset. Existing methods predict a layout as explicit bounding-box coordinates with a language model and then paste t",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19000v1",
+        "arxiv": "https://arxiv.org/abs/2608.19000v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18996v1",
+      "title": "GrabVG: Graph-Attentive Binding for Visual Grounding in UAV Imagery",
+      "authors": "Chaowei Wang, Yan Di, Jingjun Sun, Baozhe Liu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Visual grounding in Unmanned Aerial Vehicle (UAV) imagery aims to localize a target object in complex bird's-eye-view scenes according to a natural language description. However, the abundance of small, densely distributed, and visually similar objects creates",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18996v1",
+        "arxiv": "https://arxiv.org/abs/2608.18996v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18986v1",
+      "title": "X-LMC: Cross-View Spatiotemporal Collateral Circulation Scoring from DSA",
+      "authors": "Maedeh Hafezi Moghadas, Hakim Baazaoui, Lukas Bastian Otto, Susanne Wegener et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Digital subtraction angiography (DSA) is the reference standard for leptomeningeal collateral (LMC) assessment, providing critical prognostic insights to guide secondary treatment strategies, neurorehabilitation planning, and retrospective stroke research. How",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18986v1",
+        "arxiv": "https://arxiv.org/abs/2608.18986v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18979v1",
+      "title": "When Simplicity Wins: Bottleneck-Aware Context Modeling for Lightweight Semantic Segmentation",
+      "authors": "Mian Muhammad Naeem Abid, Nancy Mehta, Zongwei Wu, Radu Timofte",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Semantic segmentation demands a careful balance between accuracy, efficiency, and scalability, which remains difficult to achieve for high-resolution imagery. Convolutional networks effectively model local patterns but struggle with long-range dependencies, wh",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18979v1",
+        "arxiv": "https://arxiv.org/abs/2608.18979v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18968v1",
+      "title": "Frozen DINO Localizes Image Edits Without a Localizer",
+      "authors": "Zane Kumar, Vishal Jain, Bernhard Kainz",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Localized image edits can change a photograph's meaning while leaving most of it authentic, so forensic analysis must identify where an edit occurred. We show that patch-level perturbation responses from frozen DINO encoders are themselves localization maps. T",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18968v1",
+        "arxiv": "https://arxiv.org/abs/2608.18968v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19032v1",
+      "title": "Counterfactual Contrastive Analysis",
+      "authors": "Yunlong He, Pietro Gori",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-3d",
+      "tags": [
+        "3D Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "Visual Counterfactual Explanations (VCEs) aim to explain image classifiers by generating minimally edited and realistic versions of an input image that change the classifier's prediction. Existing VCE methods are inherently classifier-dependent and therefore s",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19032v1",
+        "arxiv": "https://arxiv.org/abs/2608.19032v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19014v1",
+      "title": "One-Stage Object Detectors in Autonomous Driving",
+      "authors": "Jonel Roman, Ryan Sirjue, Peter Nguyen, Daniel Krutky et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-segmentation",
+      "tags": [
+        "Medical Image",
+        "Segmentation",
+        "Auto-Fetched"
+      ],
+      "summary": "Autonomous vehicles depend on fast and reliable perception systems to detect surrounding vehicles, pedestrians, cyclists, traffic signs, and other road objects in real time. This paper presents a comprehensive survey and analysis of one-stage object detectors ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19014v1",
+        "arxiv": "https://arxiv.org/abs/2608.19014v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18984v1",
+      "title": "Uncertainty-Aware Art-Historical Dating with Vision-Language Models",
+      "authors": "Stefanie Schneider, Peter Bell",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "Museum and archival datasets do not mirror historical artistic production, but materialize the contingent histories of collecting, preservation, cataloging, and digitization. This has direct consequences for interpreting pretrained image representations: they ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18984v1",
+        "arxiv": "https://arxiv.org/abs/2608.18984v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-18915v1",
+      "title": "Simple, Safe, and Overlooked: Reclaiming Sustainable Domain Generalization with Statistical Color Matching",
+      "authors": "Sebastian Doerrich, Francesco Di Salvo, Shyam Nandan Rai, Marco Lents et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-registration",
+      "tags": [
+        "Medical Image",
+        "Registration",
+        "Auto-Fetched"
+      ],
+      "summary": "Hardware shifts, color variations, and changing patient characteristics between development and deployment routinely break trained medical image classifiers. Existing remedies fall short: standard color jittering provides insufficient diversity, while deep gen",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.18915v1",
+        "arxiv": "https://arxiv.org/abs/2608.18915v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2608-19004v1",
+      "title": "Autonomous Agricultural Tractor: Integrated Weed Detection and LiDAR Navigation for Precision Paddy Farming",
+      "authors": "Benjamin Merryman-Smith, Tony Nguyen, Bilal Dogutas, Krish Shah et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-08-19",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-detection",
+      "tags": [
+        "Detection",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Site-specific weed management in paddy farming offers substantial reductions in herbicide use over conventional broadcast spraying, but field deployment has been limited by three persistent challenges: robust crop-row navigation under canopy where GNSS degrade",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2608.19004v1",
+        "arxiv": "https://arxiv.org/abs/2608.19004v1",
         "code": ""
       },
       "status": "??????????"
