@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-09-02"
+    "updated": "2026-09-03"
   },
   "categories": [
     {
@@ -276359,6 +276359,656 @@
       "summary": "??????",
       "links": {
         "paper": "https://doi.org/10.1186/s40580-026-00572-y",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02886v1",
+      "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+      "authors": "Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, ca",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02886v1",
+        "arxiv": "https://arxiv.org/abs/2609.02886v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02864v1",
+      "title": "Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation",
+      "authors": "Yutong Liu, Nan Huang, Xu Cao, James M. Rehg",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visu",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02864v1",
+        "arxiv": "https://arxiv.org/abs/2609.02864v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02860v1",
+      "title": "PlantC2USeg: Cross-Scale Consistent Pre-Training for Few-Shot Unified Plant Point Cloud Segmentation",
+      "authors": "Yu Tian, Xintong Jiang, Jan Franklin Adamowski, Shiv O. Prasher et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Modern crop breeding demands precise organ-level analysis for trait quantification, making plant point cloud segmentation (PPCS) increasingly important. However, conventional deep learning approaches rely heavily on densely annotated datasets that are labor-in",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02860v1",
+        "arxiv": "https://arxiv.org/abs/2609.02860v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02854v1",
+      "title": "MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion",
+      "authors": "Aidan Bradshaw, Marco Giordano, David Rode, Andreas Habersack et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "The 3D center of mass (CoM) is a primary quantity in the biomechanical analysis of sport, rehabilitation, and clinical movement, yet existing 3D pose tracking, mesh recovery, and multi-view triangulation methods either optimize 3D keypoint accuracy without ana",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02854v1",
+        "arxiv": "https://arxiv.org/abs/2609.02854v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02847v1",
+      "title": "RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation",
+      "authors": "Xiaolei Lang, Ze Kang, Zehao Huang, Naiyan Wang",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. However, existing methods bridge the two",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02847v1",
+        "arxiv": "https://arxiv.org/abs/2609.02847v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02839v1",
+      "title": "Efficient All-in-One Weather Restoration using Spectral Harmonization",
+      "authors": "Paula Garrido-Mellado, Daniel Feijoo, Yuning Cui, Alvaro Garcia et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Adverse weather conditions such as rain, haze, and snow significantly degrade image quality, posing challenges for both human perception and physical AI. Existing restoration methods require large computational budgets, struggling to process high-resolution im",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02839v1",
+        "arxiv": "https://arxiv.org/abs/2609.02839v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02831v1",
+      "title": "Benchmarking RAW and RGB Restoration in Image Signal Processors",
+      "authors": "Zihao Lu, Radu Timofte, Marcos V. Conde",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Modern cameras transform RAW sensor measurements into sRGB images through an image signal processor (ISP). We benchmark two placements for blind restoration around a fixed ISP: (A) pre-ISP restoration in the RAW domain and (B) post-ISP restoration in the sRGB ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02831v1",
+        "arxiv": "https://arxiv.org/abs/2609.02831v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02813v1",
+      "title": "GDB-Reward: From Evaluation Metrics to Training Rewards for Graphic Design",
+      "authors": "Adrienne Deganutti, Purvanshi Mehta, Simon Hadfield, Andrew Gilbert",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Text-to-image models excel at natural image synthesis but struggle with graphic design, where success depends on satisfying precise constraints on typography, layout, color, and visual communication. While prompt optimization offers an attractive alternative t",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02813v1",
+        "arxiv": "https://arxiv.org/abs/2609.02813v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02798v1",
+      "title": "AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels",
+      "authors": "Javier Tirado-Garín, Alan Savio Paul, Shuai Chen, Axel Barroso-Laguna et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Neural map matchers estimate an image's 3-DoF pose relative to a 2D map. These models are trained on large-scale datasets of geo-referenced images, whose position and heading labels often contain noise that affects the trained models. To address this, we prese",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02798v1",
+        "arxiv": "https://arxiv.org/abs/2609.02798v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02780v1",
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "authors": "Jitai Hao, Ke Yang, Qiang Huang, Jun Yu",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-3d-reconstruction",
+      "tags": [
+        "3D Vision",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants. However, processing continuous video stream",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02780v1",
+        "arxiv": "https://arxiv.org/abs/2609.02780v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7204870411",
+      "title": "An enhanced model for accurate fish keypoint detection and tracking in intensive aquaculture",
+      "authors": "Zhen Wang, GuangQiao Cao, Haolu Liu, Anlin Zhu",
+      "venue": "Aquaculture Reports",
+      "publication": "Aquaculture Reports",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1016/j.aqrep.2026.103807",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02776v1",
+      "title": "Video-Based Palm-Vein Authentication under Challenging Conditions",
+      "authors": "Xiaofeng Yan, Kechen Liu, Abhilash Venkatesh, Cathy Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Palm-vein biometrics are increasingly used for secure, contactless authentication. Yet real-world deployment exposes them to surface noise (sweat, dirt), illumination and motion variation, and temperature-driven changes in vascular visibility, which remain und",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02776v1",
+        "arxiv": "https://arxiv.org/abs/2609.02776v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02751v1",
+      "title": "Multi-Tool Image Editing Attribution in Facial Forgery",
+      "authors": "Sheng Liu, Qiang Sheng, Danding Wang, Yu Li et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "As generative AI tools become increasingly powerful and easy to use, people can easily edit portrait images with a prompt, necessitating the task of image editing attribution, which predicts the involved editing tools from the given image. Existing attribution",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02751v1",
+        "arxiv": "https://arxiv.org/abs/2609.02751v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02748v1",
+      "title": "Balancing Frequencies and Pixels in Flow Matching",
+      "authors": "Lucas Degeorge, Paul Couairon, Arijit Ghosh, Alexei A. Efros et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Natural images follow a $1/f^2$ spectral distribution: most signal energy lies in the low spatial frequencies, while the perceptually important structures such as textures and edges occupy sparse high-frequency bands. Pixel-space reconstruction objectives, how",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02748v1",
+        "arxiv": "https://arxiv.org/abs/2609.02748v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2609-02747v1",
+      "title": "InceptionGS: Generative Bootstrapping for Large-Scale Gaussian Splatting under Unstructured View Sampling",
+      "authors": "Tianheng Lu, Guangyu Wang, Ruqi Huang, Lu Fang",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-09-02",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Achieving truly immersive large-scale scene digitization necessitates consistent and visually pleasing rendering across all possible viewing perspectives. However, collecting multi-view images covering every fine detail of a large-scale scene is prohibitive du",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2609.02747v1",
+        "arxiv": "https://arxiv.org/abs/2609.02747v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4200409918",
+      "title": "International Journal of Digital Literacy and Digital Competence",
+      "authors": "Eva Podovšovnik",
+      "venue": "International Journal of Digital Literacy and Digital Competence",
+      "publication": "International Journal of Digital Literacy and Digital Competence",
+      "published_date": "2026-09-01",
+      "citation_count": 16,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-video",
+      "tags": [
+        "Video Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.4018/ijdldc",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7204564485",
+      "title": "Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis",
+      "authors": "Hedele Zeng, Mingzhao Hu, Li‐Kun Phng, Yukiko T. Matsunaga",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "publication": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "published_date": "2026-09-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-video",
+      "tags": [
+        "Video Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.64898/2026.08.27.747487",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7204893231",
+      "title": "COTA: Color-guided Optimal Transport Attention for Arbitrary Style Transfer",
+      "authors": "Liudi Wang, Qiang Lin, Ya Zhao, Ting Li et al.",
+      "venue": "Array",
+      "publication": "Array",
+      "published_date": "2026-09-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-video",
+      "tags": [
+        "Video Generation",
+        "Diffusion",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1016/j.array.2026.101197",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4414353435",
+      "title": "Walking on the Number Line: A Playful and Embodied Group Intervention for People with Acquired Number Deficits (Acalculia)",
+      "authors": "Yael Benn, Georgios Kountouriotis, Verena Christin-Pavel, Maryam Hussain et al.",
+      "venue": "Brain Sciences",
+      "publication": "Brain Sciences",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-video",
+      "tags": [
+        "Video VLM",
+        "Multimodal",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.3390/brainsci16090940",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4417093106",
+      "title": "Counterfactual Behavior Cloning: Offline Imitation Learning from Imperfect Human Demonstrations",
+      "authors": "Shahabedin Sagheb, Dylan P. Losey",
+      "venue": "ACM Transactions on Human-Robot Interaction",
+      "publication": "ACM Transactions on Human-Robot Interaction",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-video",
+      "tags": [
+        "Video VLM",
+        "Multimodal",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1145/3842741",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7139264188",
+      "title": "Decolonizing practices in vocational education",
+      "authors": "Sabrina Ngo",
+      "venue": "Journal of Vocational Education and Training",
+      "publication": "Journal of Vocational Education and Training",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-video",
+      "tags": [
+        "Video VLM",
+        "Multimodal",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1080/13636820.2026.2723710",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7164466675",
+      "title": "Their new battlefield understanding the experiences of UK military students undertaking online Distance Learning Foundation degree programmes.",
+      "authors": "Andrew McKie",
+      "venue": "Staffordshire Online Repository (Staffordshire University)",
+      "publication": "Staffordshire Online Repository (Staffordshire University)",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-video",
+      "tags": [
+        "Video VLM",
+        "Multimodal",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://eprints.staffs.ac.uk/9678/2/EThOS-Deposit-Agreement%20Andrew%20McKie.docx",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4414898195",
+      "title": "Beyond static responses: multi-agent LLM systems as a new paradigm for social science research",
+      "authors": "Jennifer Haase, Sebastian Pokutta",
+      "venue": "Humanities and Social Sciences Communications",
+      "publication": "Humanities and Social Sciences Communications",
+      "published_date": "2026-09-02",
+      "citation_count": 2,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-optimization",
+      "tags": [
+        "Optimization",
+        "Federated",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1057/s41599-026-08832-2",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7165817340",
+      "title": "Name custody in the official MCP Registry: control changes without a same-day release (2026-07-30 to 2026-09-02)",
+      "authors": "Nikolai Otrishko",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-benchmark",
+      "tags": [
+        "Benchmark",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2606.22593",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7167981468",
+      "title": "frb-vlm-benchmark: a zero-shot Vision-Language Model benchmark for Fast Radio Burst detection",
+      "authors": "Raiff H. Santos, Amilcar R. Queiroz, T. Duarte, K. E. L. de Farias et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-09-02",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-09-03",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-benchmark",
+      "tags": [
+        "Benchmark",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2607.07382",
         "arxiv": "",
         "code": ""
       },
