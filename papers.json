@@ -3,7 +3,7 @@
     "title": "Image Paper Hub",
     "subtitle": "图像相关论文收集（多级分类，含 arXiv / 代码 / 项目链接）",
     "description": "参考会议论文清单的章节式结构，按大类和子类整理图像超分、恢复增强、生成编辑、3D视觉、医学影像、多模态等方向论文。",
-    "updated": "2026-11-22"
+    "updated": "2026-11-23"
   },
   "categories": [
     {
@@ -506277,6 +506277,1670 @@
       "summary": "??????",
       "links": {
         "paper": "https://doi.org/10.3389/fvets.2026.1892125",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27201v1",
+      "title": "Backbone-Specific LoRA Geometry: Orthogonality, Superposition, and Provenance",
+      "authors": "Kazuhiko Kawamoto, Keigo Watanabe, Hiroshi Kera",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Sharing one low-rank adaptation (LoRA) update across pretrained models simplifies deployment. Composition methods typically combine updates from a common backbone, while cross-model transfer transforms updates for a target backbone. The conditions for sharing ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27201v1",
+        "arxiv": "https://arxiv.org/abs/2611.27201v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27198v1",
+      "title": "DepthMSA: Combinatorial Training and Budget-Aware Depth Allocation for Multimodal Sentiment Analysis",
+      "authors": "Pan Wang, Jie Peng, Zhimin Li, Jingxian Chen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "State-of-the-art multimodal sentiment analysis (MSA) models rely on large pretrained encoders, yet typically process every modality to its full depth, regardless of its computational cost or predictive contribution. This raises a fundamental question: how shou",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27198v1",
+        "arxiv": "https://arxiv.org/abs/2611.27198v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27187v1",
+      "title": "SCAP: Stochastic Context for Action Expert Pretraining",
+      "authors": "Xiao Lin, Yaoxu Lyu, Ronghao Dang, Zhili Liu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Single-modality action-expert pretraining controls competition from visual shortcuts before vision--language--action (VLA) adaptation. Yet single-modality pretraining can impair the vision--language interactions needed for subsequent joint prediction. We const",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27187v1",
+        "arxiv": "https://arxiv.org/abs/2611.27187v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27183v1",
+      "title": "GEG-SAM: Gaze Exploration-Guided Segment Anything Model for Weakly Supervised Polyp Segmentation",
+      "authors": "Ao Wang, Lei Zhang, Lituan Wang, Zhenwei Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Endoscopist gaze offers an unobtrusively acquired record of lesion-oriented visual exploration during routine clinical inspection, providing relevant supervision for tasks. However, existing methods treat fixations as isolated spatial prompts directly associat",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27183v1",
+        "arxiv": "https://arxiv.org/abs/2611.27183v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27182v1",
+      "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+      "authors": "Sunli Chen, Yun Zong, Qinhong Zhou, Xiaowen Qiu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Agent harnesses are turn-based: the agent acts, waits for the result, then reasons. When the action invokes a pretrained robot policy, such as a vision-language-action (VLA) or world action model (WAM), the policy may react continuously to observations, but th",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27182v1",
+        "arxiv": "https://arxiv.org/abs/2611.27182v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27181v1",
+      "title": "HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots",
+      "authors": "Jinlin Gan, Mingzhe Li, Junsheng Zhang, Zhibo Zhou et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "As humanoid robots increasingly enter real-world environments, recovering their 3D whole-body pose from monocular imagery is becoming increasingly important for external state perception, motion analysis, and robot learning. However, Humanoid Robot Pose Estima",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27181v1",
+        "arxiv": "https://arxiv.org/abs/2611.27181v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27179v1",
+      "title": "Inject, Encode, Navigate: Feature-Wise Time Injection for Rectified Flow with Bidirectional Feature Encoding",
+      "authors": "Xiaogang Wang, Debasish Mishra, Jia Hao Toh, Wangsheng Liu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Vision-model-based robotic navigation has gained increasing popularity, yet existing approaches still struggle to deliver effective and efficient navigation performance, \\textit{e.g.}, diffusion-based policies that require costly iterative denoising. In this w",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27179v1",
+        "arxiv": "https://arxiv.org/abs/2611.27179v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27170v1",
+      "title": "FedQCal: Quadratic Programming with Dual-Space Calibration for One-Shot Federated Learning",
+      "authors": "Shunsei Koshibuchi, Hiroshi Kera, Kazuhiko Kawamoto",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "One-shot federated learning must combine heterogeneous client models after a single upload. Different local class distributions make it difficult to decide which client updates to retain. We propose FedQCal, which uses a reference model trained on a small labe",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27170v1",
+        "arxiv": "https://arxiv.org/abs/2611.27170v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27166v1",
+      "title": "Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation",
+      "authors": "Zhikang Shi, Yuk Tung Samuel Fang, Hongyu Ding, Zixuan Chen et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Long-term memory enables embodied agents to reuse past observations across tasks. However, existing cross-episode vision-and-language navigation (VLN) benchmarks often leave it unclear whether successful navigation relies on historical memory or current explor",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27166v1",
+        "arxiv": "https://arxiv.org/abs/2611.27166v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27164v1",
+      "title": "PhysForce: Physics-aware Force Control for Interactive Video World Model",
+      "authors": "Xuancheng Xu, Xiaofeng Wang, Yue Ma, Zheng Zhu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-depth",
+      "tags": [
+        "Depth",
+        "Geometry",
+        "Auto-Fetched"
+      ],
+      "summary": "Interactive video world models aim to predict how visual environments evolve in response to user interventions, including physically consistent state changes induced by applied forces. Existing methods often represent forces as motion trajectories, which may i",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27164v1",
+        "arxiv": "https://arxiv.org/abs/2611.27164v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27136v1",
+      "title": "TrajRealm: A Large-Scale Point Tracking Dataset with Diverse Dynamics",
+      "authors": "Ni Yang, Weiguang Zhao, Jiafei Cao, Yankai Jiang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "General-purpose point tracking requires large-scale training data with diverse dynamics, yet existing datasets struggle to combine rich dynamic content, accurate scene geometry, and sufficient scale. We introduce TrajRealm, the first public synthetic point-tra",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27136v1",
+        "arxiv": "https://arxiv.org/abs/2611.27136v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27135v1",
+      "title": "Crafting the Difference, Grounding the Evidence: Discriminative Concept Learning for Zero-Shot Skeleton Action Recognition",
+      "authors": "Siyu Zhu, Feng Ding, Zixiao Jin, Kaizhi Li et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "LLM-generated descriptions enrich zero-shot skeleton-based action recognition but repeat cues shared by confusable actions. Their contextual semantics also lack explicit links to skeleton features. To address these challenges, we propose CRAFT, which couples C",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27135v1",
+        "arxiv": "https://arxiv.org/abs/2611.27135v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27110v1",
+      "title": "RemoteEvolver: Expanding Earth Observation Capabilities through Agent Harness Evolution",
+      "authors": "Shengxiang Xu, Liang Yao, Shuyi Chen, Yishu Wang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "We are interested in developing a continually self-improving remote sensing agentic system. It should identify and address its capability gaps, retaining the resulting improvements to enhance performance on subsequent tasks. However, existing systems typically",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27110v1",
+        "arxiv": "https://arxiv.org/abs/2611.27110v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27102v1",
+      "title": "One state, many questions: Opsis gives a frontier model typed eyes for pathology",
+      "authors": "Zhixuan Ge, Wei Qiu",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "A synoptic pathology report is a checklist of questions with fixed answer sets, many composed from others. Pathology foundation models answer them accurately with one classifier trained with labels for each, and frontier language models, which compose freely, ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27102v1",
+        "arxiv": "https://arxiv.org/abs/2611.27102v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27101v1",
+      "title": "EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training",
+      "authors": "Ankit Pal, Guillaume Kugener, Sofia Volpi, Joshua Schwartz et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "geometry",
+      "subcategory": "geometry-registration",
+      "tags": [
+        "Registration",
+        "3D Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Surgical skill assessment, AR guidance, and robot learning from demonstration all benefit from 3D tracking of the surgeon's hands, yet no surgical dataset offers real egocentric articulated 3D hand pose. We introduce EgoSurgHands, a benchmark for real-captured",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27101v1",
+        "arxiv": "https://arxiv.org/abs/2611.27101v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236781222",
+      "title": "Constructing Dynamic Conversations with Neural Back-channel Generation and Voice-line Scheduling",
+      "authors": "Yifang Pan, Chris Landreth, Karan Singh",
+      "venue": "ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)",
+      "publication": "ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)",
+      "published_date": "2026-12-10",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "generation",
+      "subcategory": "generation-tokenizer",
+      "tags": [
+        "Multimodal",
+        "Tokenizer",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1145/3828647.3857292",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7237051161",
+      "title": "Physics-informed neural surrogate learning predicts cervical cancer progression with mechanistic interpretability",
+      "authors": "Padmasri Sridharan, Mini Ghosh",
+      "venue": "Scientific Reports",
+      "publication": "Scientific Reports",
+      "published_date": "2026-11-21",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-reconstruction",
+      "tags": [
+        "Medical Image",
+        "Reconstruction",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41598-026-79182-x",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w4415006367",
+      "title": "Video‐Based Automated Seizure Classification Using Multimodal Large Language Models",
+      "authors": "Lina Zhang, Richard Jiang, Tonmoy Monsoor, Jessica Nichole Pasqua et al.",
+      "venue": "Annals of Clinical and Translational Neurology",
+      "publication": "Annals of Clinical and Translational Neurology",
+      "published_date": "2026-11-20",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "medical",
+      "subcategory": "medical-vlm",
+      "tags": [
+        "Medical VLM",
+        "Reliability",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1002/acn3.70574",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236604086",
+      "title": "A hybrid AES-blockchain model for decentralized image security in cloud environments",
+      "authors": "Vishnu Suryawanshi, Nakul Sharma, Ramesh Mali, Anil Tukaram Lohar et al.",
+      "venue": "Bulletin of Electrical Engineering and Informatics",
+      "publication": "Bulletin of Electrical Engineering and Informatics",
+      "published_date": "2026-12-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.11591/eei.v15i6.13215",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27161v1",
+      "title": "Real-Anchored Complementary Evidence for Generalizable AI-Generated Image Detection",
+      "authors": "Wenpeng Mu, Tanfeng Sun, Zhenyu Shao, Qiang Xu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Evolving generative models challenge detector generalization, as methods trained on generated examples may rely on generator-specific cues. By contrast, authentic photographs share regularities rooted in physical image formation and acquisition, providing a co",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27161v1",
+        "arxiv": "https://arxiv.org/abs/2611.27161v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27158v1",
+      "title": "FM4SAR-Bench 1.0: Towards A Fair Benchmark for Evaluating Foundation Models for SAR Image Interpretation",
+      "authors": "Mingyao Chen, Yongxiang Liu, Tianpeng Liu, Yuchen Yong et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Foundation models have advanced SAR image interpretation but created a heterogeneous, fragmented model ecosystem. Existing models differ substantially in their input, training data, objectives, architectures, and release policy, yet the field lacks a unified t",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27158v1",
+        "arxiv": "https://arxiv.org/abs/2611.27158v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27142v1",
+      "title": "How Does SAM-3 Adapt? Capacity, Update Geometry, and Domain Transfer",
+      "authors": "Allan Kazakov, Abdurrahman Javat, Duygu Cakir",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Promptable segmentation foundation models are increasingly used in specialized domains, but it remains unclear how SAM-3 should be fine-tuned when adapting it beyond its original training distribution. We study this question by comparing five adaptation famili",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27142v1",
+        "arxiv": "https://arxiv.org/abs/2611.27142v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27124v1",
+      "title": "A Plan or an Adversarial Example? A Round-Trip Check for Latent World Models",
+      "authors": "Huiyuan Tian, Chih-Yung Wen, Shijian Li",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "If we optimize an image until a classifier is confident it shows a cat, we may get an adversarial example, not a cat. Planning with a latent world model is a similar search for actions whose predicted future is closest to the goal. Is the result a plan, or an ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27124v1",
+        "arxiv": "https://arxiv.org/abs/2611.27124v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27097v1",
+      "title": "UDA-Restoration: Bridging Unsupervised Domain Adaptation and Multi-Degradation Denoising for Enhanced AV Semantic Segmentation",
+      "authors": "Zainab Bibi, Mohsin Kamal",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Autonomous vehicles rely heavily on vision-based perception systems for safe navigation and decision-making. Adverse weather conditions, sensor noise, moving artifacts and illumination changes, however, often degrade the image quality and hence reduce percepti",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27097v1",
+        "arxiv": "https://arxiv.org/abs/2611.27097v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27093v1",
+      "title": "PIU-CR: Physics-Informed Deep Unfolding with SAR-Optical Image Fusion for Cloud Removal",
+      "authors": "Gengque Fan, Han Xu, Junxi Li, Hao Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Multi-modal cloud removal exploits complementary optical and synthetic aperture radar (SAR) images to restore cloud-degraded remote sensing images. Most existing methods rely on black-box, data-driven architectures with limited interpretability of cross-modal ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27093v1",
+        "arxiv": "https://arxiv.org/abs/2611.27093v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27080v1",
+      "title": "Fooling the Mind Twice: Human Detection of Audiovisual Deepfakes Under Repeated Exposure and Corrective Feedback",
+      "authors": "Ammarah Hashmi, Sahibzada Adil Shahzad, Yu Tsao, Hsin-Min Wang",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-segmentation",
+      "tags": [
+        "Segmentation",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "Human deepfake detection remains unreliable, and whether reassessment with corrective feedback improves subsequent judgments remains unclear. This study examined differences between initial and repeated deepfake assessments among 110 participants using audiovi",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27080v1",
+        "arxiv": "https://arxiv.org/abs/2611.27080v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27128v1",
+      "title": "Analyzing Multi-Layer Visual Representations of Large Vision-Language Models for Anomaly Detection",
+      "authors": "Satoshi Hashimoto, Hitoshi Nishimura, Mori Kurokawa",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-detection",
+      "tags": [
+        "Detection",
+        "Recognition",
+        "Auto-Fetched"
+      ],
+      "summary": "In this paper, we analyze multi-layer visual representations in large vision-language models (LVLMs) and examine the effectiveness of layer-wise features and multi-layer fusion for anomaly detection. Representative LVLMs connect visual encoder features to a la",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27128v1",
+        "arxiv": "https://arxiv.org/abs/2611.27128v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236677893",
+      "title": "An augmented reality-based mobile learning environment for human anatomy education in elementary school",
+      "authors": "Misael Lazo Amado, Laberiano Andrade-Arenas, Meyluz Monica Paico Campos",
+      "venue": "Bulletin of Electrical Engineering and Informatics",
+      "publication": "Bulletin of Electrical Engineering and Informatics",
+      "published_date": "2026-12-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "recognition",
+      "subcategory": "recognition-special",
+      "tags": [
+        "Recognition",
+        "Human",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.11591/eei.v15i6.14064",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236564654",
+      "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+      "authors": "Qiu Yan, Yuanyuan Li",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24936",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236715732",
+      "title": "Lost Between Mind, Model Collaboration, and Motion: Understanding and Measuring Cross-Model Action Misalignment in Commercial Robots",
+      "authors": "Yuhang Huang, Junchao Li, Boyang Ma, Minghui Xu et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24100",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236178193",
+      "title": "Dressed in Authority: Practical Black-Box Jailbreaking of MLLMs via Visual Trust Bias",
+      "authors": "Weihang Liu, Qianqian Xu, Yangbangyan Jiang, Zitai Wang et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-17",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.22292",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236251905",
+      "title": "When the World Is the Test Suite: Agentic Intelligence for the Physical World",
+      "authors": "Kaixin Li, Meng Luo, Yanlin Li, Yuchen Tian et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-17",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.22291",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236846942",
+      "title": "TRACE-MAS: Diagnosing and Repairing Collaboration Failures in Multi-Agent Systems",
+      "authors": "Zekai Chen, Yihan Sun, Xunkai Li, Xun Wu et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-17",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "multimodal",
+      "subcategory": "multimodal-safety",
+      "tags": [
+        "VLM",
+        "Safety",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.23362",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7235844552",
+      "title": "DOMAIN GENERALIZATION THROUGH LATENT DISENTANGLEMENT AND CROSS-DOMAIN DIFFUSION SYNTHESIS",
+      "authors": "Noaman Mehmood",
+      "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+      "publication": "Library, Museums and Press - UDSpace (University of Delaware)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://udspace.udel.edu/handle/19716/37570",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236616329",
+      "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+      "authors": "Zhaolu Wang, Jiacheng Xu, Lihong Wang, Shuqing Wang et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24731",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236693436",
+      "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+      "authors": "Shiwei Wu, Yuwen Pan, Zhi Li, Yaowen Li et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24077",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236706241",
+      "title": "Embodied Graph: A Relational World Model for Long-Horizon Tasks",
+      "authors": "Zongyuan Wu, Xin Wang, Tongtong Feng, Yuan Meng et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-embodied",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24115",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236585912",
+      "title": "CausalDrive: Causal Decomposition for Data-Efficient End-to-End Autonomous Driving",
+      "authors": "Xiaobao Wei, Jingxian Wu, Lirong Yang, Qing Han et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-driving",
+      "tags": [
+        "Autonomous Driving",
+        "World Model",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24080",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236590572",
+      "title": "The 7th International Verification of Neural Networks Competition (VNN-COMP 2026): Summary and Results",
+      "authors": "Tobias Ladner, Konstantin Kaulen, Stanley Bak, Julien Girard-Satabin et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "robotics",
+      "subcategory": "robotics-driving",
+      "tags": [
+        "Autonomous Driving",
+        "World Model",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.24114",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236580741",
+      "title": "Explainable CNN benchmark for snake fruit ripeness classification using grad-CAM visualization",
+      "authors": "Brian Rizqi Paradisiaca Darnoto, Sulisetijono Sulisetijono, Makhziah Makhziah, Ainun Nikmati Laily et al.",
+      "venue": "Bulletin of Electrical Engineering and Informatics",
+      "publication": "Bulletin of Electrical Engineering and Informatics",
+      "published_date": "2026-12-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "efficiency",
+      "subcategory": "efficiency-optimization",
+      "tags": [
+        "Optimization",
+        "Federated",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.11591/eei.v15i6.13354",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7237272004",
+      "title": "A survey of V2X communication technologies: Security challenges, solutions and future research paths",
+      "authors": "Giriraj Sharma",
+      "venue": "Peer-to-Peer Networking and Applications",
+      "publication": "Peer-to-Peer Networking and Applications",
+      "published_date": "2026-11-21",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1007/s12083-026-02312-9",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27750v1",
+      "title": "RoSci: Exploring Robustness in Science VLMs",
+      "authors": "Junying Wang, Yijin Guo, Yalun Wu, Ziheng Jiao et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Recent advancements in Vision-Language Models (VLMs) enable significant progress in scientific tasks. However, these models are generally assumed to be presented with complete and accurate information, overlooking the challenges of erroneous/missing informatio",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27750v1",
+        "arxiv": "https://arxiv.org/abs/2611.27750v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27728v1",
+      "title": "Quantitative Measurement of Pavement Distress based on Vehicle Camera and Perspective Correction",
+      "authors": "Sike Wang, Yizhou Lin, Shuo Li, Yi Jiang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Using image data is becoming an important method for highway agencies to automatically evaluate pavement conditions. However, most studies focus on improving detection accuracy rather than obtaining quantitative measurements, such as the length or area of pave",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27728v1",
+        "arxiv": "https://arxiv.org/abs/2611.27728v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27720v1",
+      "title": "PAWS: A Parametric Model of Canine Pose and Shape",
+      "authors": "Theo Wieland, Zala Žgank, Silvia Zuffi, Ylva Mellbin et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "We introduce PAWS, a parametric model of canine shape and pose, learned from 3D scans of real dogs. Capturing the full diversity of dogs is challenging, as different breeds vary in size, proportion, and body shape. To capture this range, we scanned 31 dogs acr",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27720v1",
+        "arxiv": "https://arxiv.org/abs/2611.27720v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27719v1",
+      "title": "VeilGS: Solving Darkness as a Veil of 2D Basis Maps over Retinex 3DGS",
+      "authors": "Mohab Kishawy, Chengzhou Tang, Shahram Shirani, Jun Chen",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one cur",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27719v1",
+        "arxiv": "https://arxiv.org/abs/2611.27719v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27712v1",
+      "title": "When Are Images Needed in Multimodal Machine Translation? Text-Only Routing for On-Demand Visual Context",
+      "authors": "Xinyu Wang, Yingfeng Luo, Yuxin Gao, Anxiang Ma et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Image-guided multimodal machine translation (MMT) leverages visual context to resolve translation-relevant uncertainty. However, prevailing systems either process images unconditionally or apply gating only after visual encoding, leaving redundant visual compu",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27712v1",
+        "arxiv": "https://arxiv.org/abs/2611.27712v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27689v1",
+      "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+      "authors": "Zhenxuan Fan, Zhuoya Wang, Yuqian Yuan, Wenqiao Zhang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-age",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27689v1",
+        "arxiv": "https://arxiv.org/abs/2611.27689v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27674v1",
+      "title": "CanopyFormer: Attention-Guided SegFormer for Explainable Forest Cover Segmentation",
+      "authors": "Dhinanjaya Fernando, Dinura Ginige, Kalana Lakshan, Chanupa Gurusinghe et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "In transformer segmentation models, attention is usually visualized after training rather than supervised. Although attention supervision has been explored for natural images and driving scenes, aerial forest segmentation typically uses attention only as an ar",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27674v1",
+        "arxiv": "https://arxiv.org/abs/2611.27674v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27667v1",
+      "title": "GeoScaffold: From Latent to Realized Geometry in Collaborative Detection",
+      "authors": "Kang Yang, Yance Fang, Gaochen Cui, Xiaoqiang Jin et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Most collaborative 3D detectors fuse bird's-eye-view (BEV) features from connected vehicles and roadside infrastructure to aggregate complementary observations. Although modern communication, alignment, and fusion pipelines encode rich latent geometry in the f",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27667v1",
+        "arxiv": "https://arxiv.org/abs/2611.27667v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27656v1",
+      "title": "Beyond Sample Hardness: Adaptive Data Selection through Learning Dynamics",
+      "authors": "Hai Gan, Suorong Yang, Guang Li, Baile Xu et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Data selection has emerged as an effective approach to reducing the model training costs. However, most existing methods often rely heavily on sample hardness, which may overlook differences in sample learning dynamics and lead to suboptimal sample selection. ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27656v1",
+        "arxiv": "https://arxiv.org/abs/2611.27656v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27646v1",
+      "title": "MoHA: Model-Conditioned Harness Adaptation for Long-Video Agents",
+      "authors": "Jianghan Chao, Wenhui Tan, Hang Su, Qiuyu Tian et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-privacy",
+      "tags": [
+        "Privacy",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "Long-video understanding increasingly relies on agentic systems that actively acquire evidence rather than process fixed video representations. Their execution harnesses must coordinate language-level planning with video-level observation and evidence acquisit",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27646v1",
+        "arxiv": "https://arxiv.org/abs/2611.27646v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236694811",
+      "title": "Collision-aware adaptive frequency hopping for anti-jamming backscatter communications",
+      "authors": "Le Hoang Hiep, Huu‐Huy Ngo",
+      "venue": "Bulletin of Electrical Engineering and Informatics",
+      "publication": "Bulletin of Electrical Engineering and Informatics",
+      "published_date": "2026-12-01",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "security",
+      "subcategory": "security-robustness",
+      "tags": [
+        "Robustness",
+        "Security",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.11591/eei.v15i6.13022",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27641v1",
+      "title": "Beyond Resolution: Inference-Time Parameterized Temporal Consistency in Generative Regional Climate Downscaling",
+      "authors": "Luca Glawion, Julius Polz, Harald Kunstmann, Benjamin Fersch et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "GCM-to-RCM downscaling emulation is dominated by generative diffusion models, but most existing work evaluates skill only per timestep, treating each field as an independent snapshot. This leaves open whether generated sequences are temporally coherent or mere",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27641v1",
+        "arxiv": "https://arxiv.org/abs/2611.27641v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27639v1",
+      "title": "SOAR: Training-Free Rank-Consistent Rollout Compression for Latent World Model Planning",
+      "authors": "Anqi Li, Kai Liu, Linghe Kong, Yulun Zhang",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "Latent world models plan by rolling out hundreds of candidate action sequences through a transformer predictor, so a single decision can take tens of seconds. Existing accelerations prune spatial tokens as in vision-language models, yet a sampling-based planne",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27639v1",
+        "arxiv": "https://arxiv.org/abs/2611.27639v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27624v1",
+      "title": "Points, Not Pixels: Keypoints, Masks and Oblique Geometry for Floating-Roof Tank Fill Estimation from Overhead Imagery",
+      "authors": "Mohd Shahid Kaleem, Mohd Hozaifa Khan, Maaz Khan",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "dataset",
+      "subcategory": "dataset-highres",
+      "tags": [
+        "High-Resolution",
+        "Dataset",
+        "Auto-Fetched"
+      ],
+      "summary": "The floating roof of an oil storage tank rests on the stored liquid, so its depth below the rim measures how full the tank is. In optical overhead imagery, this depth appears only as the crescent shadow the rim casts on the roof, often a few pixels wide. Thin ",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27624v1",
+        "arxiv": "https://arxiv.org/abs/2611.27624v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236044331",
+      "title": "Ultra-lightweight machine learning-enabled automated crack detection and quantification using high-resolution distributed fiber-optic sensors",
+      "authors": "Xiao Hua Tan, Xiangting Meng, Haotian Qiu, Yiming Liu et al.",
+      "venue": "Developments in the Built Environment",
+      "publication": "Developments in the Built Environment",
+      "published_date": "2026-11-18",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-super-resolution",
+      "tags": [
+        "Super-Resolution",
+        "Low-Level Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.1016/j.dibe.2026.101121",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7235899052",
+      "title": "Harnessing Image Diffusion Prior for Photo-Realistic Video Restoration",
+      "authors": "Fanghua Yu, Hongyu An, Jinfan Hu, Xinqi Lin et al.",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-17",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-super-resolution",
+      "tags": [
+        "Super-Resolution",
+        "Low-Level Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.22874",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27620v1",
+      "title": "Sketch2TikZ: Multi-Reward Reinforcement Learning for Converting Hand-Drawn Sketches to Executable TikZ",
+      "authors": "Shubham Paliwal, Arushi Jain, Monika Sharma, Manasi Patwardhan",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-super-resolution",
+      "tags": [
+        "Super-Resolution",
+        "Low-Level Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Automatic digitization of hand-drawn sketches into editable formats is crucial for modern document workflows and LaTeX integration. Converting sketches into executable TikZ code provides a structured representation of diagrams, but remains challenging due to n",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27620v1",
+        "arxiv": "https://arxiv.org/abs/2611.27620v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27585v1",
+      "title": "Leakage-Free Is Not Confounder-Free: What a Patient-Level Split Cannot Certify About a Medical Imaging Benchmark",
+      "authors": "Ignazio Gallo, Mattia Gatti, Leonardo Sgroi, Darwin Castillo et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-super-resolution",
+      "tags": [
+        "Super-Resolution",
+        "Low-Level Vision",
+        "Auto-Fetched"
+      ],
+      "summary": "Patient-level splitting is the standard safeguard against subject leakage in medical imaging evaluation, but it cannot remove a confounder that every fold inherits: an acquisition variable aligned with the diagnosis across the whole cohort. We present a five-q",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27585v1",
+        "arxiv": "https://arxiv.org/abs/2611.27585v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27547v1",
+      "title": "GameScrub: Learning HUD Removal from Real Gameplay with Recovered Targets",
+      "authors": "Mohammad Areeb Qazi, Yiyan Hu, Yanan Wang, Xuezhi Liang et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-attention",
+      "tags": [
+        "Super-Resolution",
+        "Attention",
+        "Auto-Fetched"
+      ],
+      "summary": "Gameplay videos are a rich source of experience for learning virtual-world dynamics, yet their frames contain heads-up displays (HUDs) that follow interface rules rather than scene dynamics. Removing HUDs would make this footage directly usable for learning wo",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27547v1",
+        "arxiv": "https://arxiv.org/abs/2611.27547v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "arxiv-2611-27542v1",
+      "title": "When Visually Rich Documents Meet Multi-Vector Retrieval for Region-level Retrieval-Augmented Generation",
+      "authors": "Xu Yuan, Liangbo Ning, Yujuan Ding, Qing Li et al.",
+      "venue": "arXiv",
+      "publication": "arXiv",
+      "published_date": "2026-11-20",
+      "citation_count": null,
+      "citation_source": "",
+      "citation_updated": "",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "sr-attention",
+      "tags": [
+        "Super-Resolution",
+        "Attention",
+        "Auto-Fetched"
+      ],
+      "summary": "Visually rich documents (VRDs) convey knowledge through textual, visual, and layout information that text-centric Retrieval-Augmented Generation (Text-RAG) struggles to fully exploit. Recent Vision-RAG approaches enable retrieval and generation directly from d",
+      "links": {
+        "paper": "https://arxiv.org/pdf/2611.27542v1",
+        "arxiv": "https://arxiv.org/abs/2611.27542v1",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7236360350",
+      "title": "ExplicitIR: Explicit Spatial Policy Fields for All-in-One Image Restoration",
+      "authors": "Dezhi Zhang, Shangrong Yang, Yudong Liang, WenJian Wang",
+      "venue": "arXiv (Cornell University)",
+      "publication": "arXiv (Cornell University)",
+      "published_date": "2026-11-17",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-enhancement",
+      "tags": [
+        "Restoration",
+        "Enhancement",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.22222",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7237014946",
+      "title": "Remodelling the tumour microenvironment to potentiate immunotherapy in early-stage triple-negative breast cancer: mechanisms, rational combinations, and biomarker-driven stratification",
+      "authors": "Kui Liu, Peng Jiao, Hong Yang, Chuanqin Shi et al.",
+      "venue": "Frontiers in Immunology",
+      "publication": "Frontiers in Immunology",
+      "published_date": "2026-11-20",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-generative",
+      "tags": [
+        "Restoration",
+        "Diffusion Prior",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.3389/fimmu.2026.2022156",
+        "arxiv": "",
+        "code": ""
+      },
+      "status": "??????????"
+    },
+    {
+      "id": "openalex-https-openalex-org-w7237103050",
+      "title": "Cardiovascular disease and cognitive decline: a reciprocal multisystem connection defined by apolipoproteins, sirtuins, and non-coding RNAs",
+      "authors": "Kenneth Maiese",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "publication": "Frontiers in Cell and Developmental Biology",
+      "published_date": "2026-11-20",
+      "citation_count": 0,
+      "citation_source": "OpenAlex",
+      "citation_updated": "2026-11-23",
+      "year": 2026,
+      "category": "sr",
+      "subcategory": "restoration-generative",
+      "tags": [
+        "Restoration",
+        "Diffusion Prior",
+        "Auto-Fetched"
+      ],
+      "summary": "??????",
+      "links": {
+        "paper": "https://doi.org/10.3389/fcell.2026.1963036",
         "arxiv": "",
         "code": ""
       },
